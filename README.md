@@ -1,4 +1,4 @@
-# FMECA-ATT-CK-ATLAS
+# FMECA-ATTACK-ATLAS
 This repository includes information on the FMECA-ATT-CK-ATLAS (FAA) semi-automated risk assessment approach. FAA is based on the following processes and frameworks:
 - FMECA: Failure modes, effects, and criticality analysis. FMECA is a widely known and practised 8-step risk assessment process outlined in the IEC 60812 standard.
 - ATT&CK: MITRE ATT&CK® is a globally accessible knowledge base of adversary tactics and techniques based on real-world observations. (https://attack.mitre.org/)
