@@ -1,0 +1,1733 @@
+rel_number;matrix;Technique;Mitigation;Efficiency
+1;ICS;Screen Capture;Mitigation Limited or Not Effective;5
+2;ICS;Theft of Operational Information;Data Loss Prevention;5
+3;ICS;Detect Operating Mode;Software Process and Device Authentication;7
+4;ICS;Exploitation for Evasion;Update Software;8
+5;ICS;Activate Firmware Update Mode;Communication Authenticity;7
+6;ICS;System Firmware;Filter Network Traffic;7
+7;ICS;Program Download;Network Allowlists;5
+8;ICS;Loss of Safety;Safety Instrumented Systems;7
+9;ICS;Service Stop;Restrict File and Directory Permissions;6
+10;ICS;Automated Collection;Network Segmentation;8
+11;ICS;Exploitation of Remote Services;Application Isolation and Sandboxing;5
+12;ICS;Network Sniffing;Encrypt Network Traffic;5
+13;ICS;Program Upload;Authorization Enforcement;7
+14;ICS;Modify Alarm Settings;Software Process and Device Authentication;7
+15;ICS;Activate Firmware Update Mode;Access Management;8
+16;ICS;External Remote Services;Multi-factor Authentication;8
+17;ICS;Adversary-in-the-Middle;Software Process and Device Authentication;7
+18;ICS;Standard Application Layer Protocol;Network Segmentation;8
+19;ICS;Denial of View;Data Backup;6
+20;ICS;Modify Controller Tasking;Code Signing;5
+21;ICS;Valid Accounts;User Account Management;8
+22;ICS;Command-Line Interface;Execution Prevention;6
+23;ICS;Loss of Control;Data Backup;6
+24;ICS;Exploit Public-Facing Application;Network Segmentation;8
+25;ICS;Data from Information Repositories;Privileged Account Management;6
+26;ICS;System Firmware;Network Segmentation;8
+27;ICS;Hardcoded Credentials;Access Management;8
+28;ICS;Default Credentials;Access Management;8
+29;ICS;Execution through API;Execution Prevention;6
+30;ICS;Loss of Control;Redundancy of Service;8
+31;ICS;Adversary-in-the-Middle;Disable or Remove Feature or Program;6
+32;ICS;Theft of Operational Information;Operational Information Confidentiality;5
+33;ICS;Manipulation of Control;Data Backup;6
+34;ICS;Data from Information Repositories;Audit;6
+35;ICS;Native API;Execution Prevention;6
+36;ICS;Data Destruction;Restrict File and Directory Permissions;6
+37;ICS;Spearphishing Attachment;Restrict Web-Based Content;5
+38;ICS;Activate Firmware Update Mode;Network Allowlists;5
+39;ICS;Loss of Availability;Out-of-Band Communications Channel;5
+40;ICS;External Remote Services;Account Use Policies;5
+41;ICS;Supply Chain Compromise;Audit;6
+42;ICS;Project File Infection;Encrypt Sensitive Information;5
+43;ICS;Alarm Suppression;Network Allowlists;5
+44;ICS;Brute Force I/O;Software Process and Device Authentication;7
+45;ICS;Drive-by Compromise;Update Software;8
+46;ICS;Unauthorized Command Message;Software Process and Device Authentication;7
+47;ICS;Loss of View;Data Backup;6
+48;ICS;Block Reporting Message;Static Network Configuration;6
+49;ICS;Program Download;Audit;6
+50;ICS;Unauthorized Command Message;Network Segmentation;8
+51;ICS;Program Download;Access Management;8
+52;ICS;Block Serial COM;Out-of-Band Communications Channel;5
+53;ICS;Modify Parameter;Audit;6
+54;ICS;Scripting;Execution Prevention;6
+55;ICS;Commonly Used Port;Network Intrusion Prevention;8
+56;ICS;Program Upload;Access Management;8
+57;ICS;Alarm Suppression;Static Network Configuration;6
+58;ICS;System Firmware;Encrypt Network Traffic;5
+59;ICS;Exploitation for Evasion;Application Isolation and Sandboxing;5
+60;ICS;System Firmware;Boot Integrity;6
+61;ICS;Block Serial COM;Network Segmentation;8
+62;ICS;User Execution;User Training;8
+63;ICS;Exploitation of Remote Services;Privileged Account Management;6
+64;ICS;Manipulation of View;Communication Authenticity;7
+65;ICS;External Remote Services;Disable or Remove Feature or Program;6
+66;ICS;Program Download;Authorization Enforcement;7
+67;ICS;Network Sniffing;Multi-factor Authentication;8
+68;ICS;Loss of Safety;Mechanical Protection Layers;5
+69;ICS;Valid Accounts;Multi-factor Authentication;8
+70;ICS;Commonly Used Port;Network Segmentation;8
+71;ICS;Point & Tag Identification;Access Management;8
+72;ICS;Wireless Sniffing;Encrypt Network Traffic;5
+73;ICS;Data from Local System;User Training;8
+74;ICS;Execution through API;Access Management;8
+75;ICS;Change Credential;Password Policies;7
+76;ICS;Exploit Public-Facing Application;Application Isolation and Sandboxing;5
+77;ICS;Default Credentials;Password Policies;7
+78;ICS;Remote Services;Password Policies;7
+79;ICS;Change Credential;Redundancy of Service;8
+80;ICS;Change Operating Mode;Authorization Enforcement;7
+81;ICS;External Remote Services;Network Segmentation;8
+82;ICS;Remote Services;Network Segmentation;8
+83;ICS;Exploitation for Privilege Escalation;Application Isolation and Sandboxing;5
+84;ICS;Exploitation for Privilege Escalation;Exploit Protection;6
+85;ICS;Data from Information Repositories;User Training;8
+86;ICS;Wireless Compromise;Minimize Wireless Signal Propagation;5
+87;ICS;Damage to Property;Network Allowlists;5
+88;ICS;Data from Local System;Encrypt Sensitive Information;5
+89;ICS;Block Reporting Message;Network Allowlists;5
+90;ICS;Modify Parameter;Validate Program Inputs;6
+91;ICS;Exploitation of Remote Services;Network Segmentation;8
+92;ICS;Program Upload;Communication Authenticity;7
+93;ICS;Hooking;Audit;6
+94;ICS;Program Download;Network Segmentation;8
+95;ICS;Modify Alarm Settings;Network Allowlists;5
+96;ICS;Alarm Suppression;Out-of-Band Communications Channel;5
+97;ICS;Module Firmware;Network Segmentation;8
+98;ICS;Modify Alarm Settings;User Account Management;8
+99;ICS;Scripting;Application Isolation and Sandboxing;5
+100;ICS;Loss of Availability;Data Backup;6
+101;ICS;External Remote Services;User Account Management;8
+102;ICS;Masquerading;Execution Prevention;6
+103;ICS;Command-Line Interface;Disable or Remove Feature or Program;6
+104;ICS;Spearphishing Attachment;User Training;8
+105;ICS;Exploitation of Remote Services;Vulnerability Scanning;8
+106;ICS;Adversary-in-the-Middle;Static Network Configuration;6
+107;ICS;Program Upload;Filter Network Traffic;7
+108;ICS;Modify Program;Audit;6
+109;ICS;Activate Firmware Update Mode;Authorization Enforcement;7
+110;ICS;System Firmware;Human User Authentication;8
+111;ICS;Project File Infection;Code Signing;5
+112;ICS;Exploitation of Remote Services;Threat Intelligence Program;8
+113;ICS;Data from Information Repositories;Encrypt Sensitive Information;5
+114;ICS;Block Serial COM;Network Allowlists;5
+115;ICS;Transient Cyber Asset;Update Software;8
+116;ICS;System Firmware;Network Allowlists;5
+117;ICS;Spoof Reporting Message;Network Allowlists;5
+118;ICS;Masquerading;Code Signing;5
+119;ICS;Spoof Reporting Message;Software Process and Device Authentication;7
+120;ICS;Exploit Public-Facing Application;Vulnerability Scanning;8
+121;ICS;Valid Accounts;Filter Network Traffic;7
+122;ICS;Connection Proxy;Network Allowlists;5
+123;ICS;Change Credential;Data Backup;6
+124;ICS;Device Restart/Shutdown;Network Segmentation;8
+125;ICS;Manipulate I/O Image;Mitigation Limited or Not Effective;5
+126;ICS;Supply Chain Compromise;Code Signing;5
+127;ICS;Supply Chain Compromise;Vulnerability Scanning;8
+128;ICS;Rogue Master;Network Segmentation;8
+129;ICS;Denial of Control;Out-of-Band Communications Channel;5
+130;ICS;Valid Accounts;Password Policies;7
+131;ICS;Network Connection Enumeration;Mitigation Limited or Not Effective;5
+132;ICS;Data from Information Repositories;Restrict File and Directory Permissions;6
+133;ICS;Adversary-in-the-Middle;Audit;6
+134;ICS;Module Firmware;Human User Authentication;8
+135;ICS;External Remote Services;Limit Access to Resource Over Network;6
+136;ICS;Valid Accounts;Active Directory Configuration;5
+137;ICS;Project File Infection;Restrict File and Directory Permissions;6
+138;ICS;Manipulation of Control;Out-of-Band Communications Channel;5
+139;ICS;Program Upload;Human User Authentication;8
+140;ICS;Brute Force I/O;Network Segmentation;8
+141;ICS;Block Command Message;Network Allowlists;5
+142;ICS;Program Download;Communication Authenticity;7
+143;ICS;Modify Alarm Settings;Network Segmentation;8
+144;ICS;Alarm Suppression;Network Segmentation;8
+145;ICS;Lateral Tool Transfer;Network Intrusion Prevention;8
+146;ICS;Data from Information Repositories;User Account Management;8
+147;ICS;Module Firmware;Encrypt Sensitive Information;5
+148;ICS;Spoof Reporting Message;Network Segmentation;8
+149;ICS;Replication Through Removable Media;Limit Hardware Installation;8
+150;ICS;Device Restart/Shutdown;Access Management;8
+151;ICS;Masquerading;Restrict File and Directory Permissions;6
+152;ICS;Detect Operating Mode;Human User Authentication;8
+153;ICS;Denial of Control;Data Backup;6
+154;ICS;Program Upload;Network Allowlists;5
+155;ICS;Transient Cyber Asset;Network Segmentation;8
+156;ICS;Monitor Process State;Mitigation Limited or Not Effective;5
+157;ICS;Remote System Discovery;Static Network Configuration;6
+158;ICS;Replication Through Removable Media;Operating System Configuration;7
+159;ICS;Supply Chain Compromise;Update Software;8
+160;ICS;Denial of Control;Redundancy of Service;8
+161;ICS;Execution through API;Authorization Enforcement;7
+162;ICS;Commonly Used Port;Human User Authentication;8
+163;ICS;Transient Cyber Asset;Antivirus/Antimalware;5
+164;ICS;Rogue Master;Filter Network Traffic;7
+165;ICS;Denial of View;Redundancy of Service;8
+166;ICS;I/O Image;Mitigation Limited or Not Effective;5
+167;ICS;Module Firmware;Boot Integrity;6
+168;ICS;Unauthorized Command Message;Filter Network Traffic;7
+169;ICS;Exploit Public-Facing Application;Update Software;8
+170;ICS;User Execution;Code Signing;5
+171;ICS;Program Download;Code Signing;5
+172;ICS;Drive-by Compromise;Exploit Protection;6
+173;ICS;Replication Through Removable Media;Disable or Remove Feature or Program;6
+174;ICS;External Remote Services;Password Policies;7
+175;ICS;Module Firmware;Code Signing;5
+176;ICS;Change Operating Mode;Software Process and Device Authentication;7
+177;ICS;Modify Alarm Settings;Access Management;8
+178;ICS;Rogue Master;Communication Authenticity;7
+179;ICS;Wireless Sniffing;Minimize Wireless Signal Propagation;5
+180;ICS;Remote Services;User Account Management;8
+181;ICS;Device Restart/Shutdown;Disable or Remove Feature or Program;6
+182;ICS;Network Sniffing;Static Network Configuration;6
+183;ICS;Scripting;Disable or Remove Feature or Program;6
+184;ICS;Spearphishing Attachment;Antivirus/Antimalware;5
+185;ICS;Commonly Used Port;Disable or Remove Feature or Program;6
+186;ICS;Graphical User Interface;Mitigation Limited or Not Effective;5
+187;ICS;Rootkit;Audit;6
+188;ICS;Change Operating Mode;Access Management;8
+189;ICS;Module Firmware;Software Process and Device Authentication;7
+190;ICS;Unauthorized Command Message;Validate Program Inputs;6
+191;ICS;Device Restart/Shutdown;Software Process and Device Authentication;7
+192;ICS;Internet Accessible Device;Network Segmentation;8
+193;ICS;Valid Accounts;Access Management;8
+194;ICS;Unauthorized Command Message;Communication Authenticity;7
+195;ICS;Theft of Operational Information;Restrict File and Directory Permissions;6
+196;ICS;Program Download;Software Process and Device Authentication;7
+197;ICS;Module Firmware;Network Allowlists;5
+198;ICS;Program Download;Human User Authentication;8
+199;ICS;Module Firmware;Communication Authenticity;7
+200;ICS;Connection Proxy;Filter Network Traffic;7
+201;ICS;Transient Cyber Asset;Audit;6
+202;ICS;Manipulation of View;Out-of-Band Communications Channel;5
+203;ICS;Transient Cyber Asset;Encrypt Sensitive Information;5
+204;ICS;Program Upload;Network Segmentation;8
+205;ICS;Exploitation of Remote Services;Update Software;8
+206;ICS;Modify Parameter;Authorization Enforcement;7
+207;ICS;User Execution;Restrict Web-Based Content;5
+208;ICS;Activate Firmware Update Mode;Network Segmentation;8
+209;ICS;Point & Tag Identification;Filter Network Traffic;7
+210;ICS;Module Firmware;Access Management;8
+211;ICS;Valid Accounts;Privileged Account Management;6
+212;ICS;Exploitation of Remote Services;Disable or Remove Feature or Program;6
+213;ICS;Execution through API;Human User Authentication;8
+214;ICS;Point & Tag Identification;Human User Authentication;8
+215;ICS;System Firmware;Code Signing;5
+216;ICS;Remote Services;Authorization Enforcement;7
+217;ICS;Denial of View;Out-of-Band Communications Channel;5
+218;ICS;Exploit Public-Facing Application;Exploit Protection;6
+219;ICS;Valid Accounts;Audit;6
+220;ICS;Modify Controller Tasking;Audit;6
+221;ICS;Device Restart/Shutdown;Human User Authentication;8
+222;ICS;Program Download;Filter Network Traffic;7
+223;ICS;User Execution;Execution Prevention;6
+224;ICS;Point & Tag Identification;Authorization Enforcement;7
+225;ICS;Data Destruction;Privileged Account Management;6
+226;ICS;Connection Proxy;Network Intrusion Prevention;8
+227;ICS;Module Firmware;Audit;6
+228;ICS;Remote Services;Filter Network Traffic;7
+229;ICS;Device Restart/Shutdown;Communication Authenticity;7
+230;ICS;Loss of View;Redundancy of Service;8
+231;ICS;Data Destruction;Data Backup;6
+232;ICS;Valid Accounts;Account Use Policies;5
+233;ICS;Loss of Productivity and Revenue;Data Backup;6
+234;ICS;Modify Alarm Settings;Human User Authentication;8
+235;ICS;Exploitation of Remote Services;Exploit Protection;6
+236;ICS;Exploitation for Privilege Escalation;Update Software;8
+237;ICS;User Execution;Network Intrusion Prevention;8
+238;ICS;User Execution;Antivirus/Antimalware;5
+239;ICS;Activate Firmware Update Mode;Human User Authentication;8
+240;ICS;Exploitation for Privilege Escalation;Threat Intelligence Program;8
+241;ICS;Connection Proxy;SSL/TLS Inspection;8
+242;ICS;Loss of View;Out-of-Band Communications Channel;5
+243;ICS;Service Stop;Restrict Registry Permissions;5
+244;ICS;Wireless Compromise;Encrypt Network Traffic;5
+245;ICS;Module Firmware;Filter Network Traffic;7
+246;ICS;Standard Application Layer Protocol;Network Allowlists;5
+247;ICS;Detect Operating Mode;Filter Network Traffic;7
+248;ICS;Loss of Control;Out-of-Band Communications Channel;5
+249;ICS;Automated Collection;Network Allowlists;5
+250;ICS;Denial of Service;Watchdog Timers;8
+251;ICS;Detect Operating Mode;Network Allowlists;5
+252;ICS;Remote Services;Software Process and Device Authentication;7
+253;ICS;Block Command Message;Static Network Configuration;6
+254;ICS;Adversary-in-the-Middle;Network Intrusion Prevention;8
+255;ICS;Network Sniffing;Privileged Account Management;6
+256;ICS;Service Stop;User Account Management;8
+257;ICS;Brute Force I/O;Network Allowlists;5
+258;ICS;Remote System Information Discovery;Static Network Configuration;6
+259;ICS;Manipulation of Control;Communication Authenticity;7
+260;ICS;System Firmware;Access Management;8
+261;ICS;Device Restart/Shutdown;Filter Network Traffic;7
+262;ICS;Adversary-in-the-Middle;Network Segmentation;8
+263;ICS;Drive-by Compromise;Restrict Web-Based Content;5
+264;ICS;Change Operating Mode;Communication Authenticity;7
+265;ICS;Block Reporting Message;Out-of-Band Communications Channel;5
+266;ICS;Theft of Operational Information;Encrypt Sensitive Information;5
+267;ICS;Manipulation of View;Data Backup;6
+268;ICS;Exploitation for Evasion;Exploit Protection;6
+269;ICS;Spoof Reporting Message;Communication Authenticity;7
+270;ICS;Activate Firmware Update Mode;Software Process and Device Authentication;7
+271;ICS;Rogue Master;Software Process and Device Authentication;7
+272;ICS;Standard Application Layer Protocol;Network Intrusion Prevention;8
+273;ICS;Block Command Message;Out-of-Band Communications Channel;5
+274;ICS;Adversary-in-the-Middle;Communication Authenticity;7
+275;ICS;Remote Services;Access Management;8
+276;ICS;Unauthorized Command Message;Network Allowlists;5
+277;ICS;Wireless Compromise;Communication Authenticity;7
+278;ICS;Detect Operating Mode;Communication Authenticity;7
+279;ICS;Damage to Property;Mechanical Protection Layers;5
+280;ICS;Change Operating Mode;Human User Authentication;8
+281;ICS;Supply Chain Compromise;Supply Chain Management;6
+282;ICS;Activate Firmware Update Mode;Filter Network Traffic;7
+283;ICS;Drive-by Compromise;Application Isolation and Sandboxing;5
+284;ICS;Modify Program;Code Signing;5
+285;ICS;Spoof Reporting Message;Filter Network Traffic;7
+286;ICS;Indicator Removal on Host;Restrict File and Directory Permissions;6
+287;ICS;Exploit Public-Facing Application;Privileged Account Management;6
+288;ICS;Spearphishing Attachment;Network Intrusion Prevention;8
+289;ICS;Network Sniffing;Network Segmentation;8
+290;ICS;Point & Tag Identification;Network Allowlists;5
+291;ICS;Point & Tag Identification;Software Process and Device Authentication;7
+292;ICS;Remote Services;Network Allowlists;5
+293;ICS;Change Operating Mode;Network Segmentation;8
+294;ICS;Detect Operating Mode;Access Management;8
+295;ICS;Device Restart/Shutdown;Network Allowlists;5
+296;ICS;Data from Local System;Data Loss Prevention;5
+297;ICS;System Firmware;Encrypt Sensitive Information;5
+298;ICS;Data from Local System;Restrict File and Directory Permissions;6
+299;ICS;Detect Operating Mode;Authorization Enforcement;7
+300;ICS;Service Stop;Network Segmentation;8
+301;ICS;System Firmware;Software Process and Device Authentication;7
+302;ICS;Point & Tag Identification;Network Segmentation;8
+303;ICS;Hooking;Restrict Library Loading;6
+304;ICS;Module Firmware;Encrypt Network Traffic;5
+305;ICS;Wireless Compromise;Software Process and Device Authentication;7
+306;ICS;Exploitation for Evasion;Threat Intelligence Program;8
+307;ICS;Point & Tag Identification;Communication Authenticity;7
+308;ICS;Device Restart/Shutdown;Authorization Enforcement;7
+309;ICS;Project File Infection;Audit;6
+310;ICS;Remote Services;Human User Authentication;8
+311;ICS;Adversary-in-the-Middle;Out-of-Band Communications Channel;5
+312;ICS;Damage to Property;Safety Instrumented Systems;7
+313;ICS;Rootkit;Code Signing;5
+314;ICS;System Firmware;Communication Authenticity;7
+315;ICS;Modify Alarm Settings;Authorization Enforcement;7
+316;ICS;Program Upload;Software Process and Device Authentication;7
+317;ICS;Change Operating Mode;Network Allowlists;5
+318;ICS;Valid Accounts;Application Developer Guidance;5
+319;ICS;System Firmware;Update Software;8
+320;ICS;Detect Operating Mode;Network Segmentation;8
+321;ICS;System Firmware;Audit;6
+322;ICS;Rogue Master;Network Allowlists;5
+323;ICS;Loss of Availability;Redundancy of Service;8
+324;ICS;Brute Force I/O;Filter Network Traffic;7
+1;Mobile;Disable or Modify Tools;Deploy Compromised Device Detection Method;5
+2;Mobile;Input Injection;User Guidance;8
+3;Mobile;Uninstall Malicious Application;Attestation;5
+4;Mobile;Hooking;Deploy Compromised Device Detection Method;5
+5;Mobile;Calendar Entries;User Guidance;8
+6;Mobile;SMS Messages;User Guidance;8
+7;Mobile;Input Capture;User Guidance;8
+8;Mobile;Impair Defenses;Security Updates;8
+9;Mobile;Unix Shell;Deploy Compromised Device Detection Method;5
+10;Mobile;Indicator Removal on Host;Security Updates;8
+11;Mobile;Exploitation of Remote Services;Enterprise Policy;8
+12;Mobile;Input Injection;Enterprise Policy;8
+13;Mobile;Subvert Trust Controls;Enterprise Policy;8
+14;Mobile;Indicator Removal on Host;Attestation;5
+15;Mobile;Audio Capture;User Guidance;8
+16;Mobile;Security Software Discovery;Use Recent OS Version;5
+17;Mobile;Keychain;Attestation;5
+18;Mobile;Prevent Application Removal;Use Recent OS Version;5
+19;Mobile;Code Signing Policy Modification;Use Recent OS Version;5
+20;Mobile;Compromise Software Dependencies and Development Tools;Application Developer Guidance;5
+21;Mobile;Exploitation for Privilege Escalation;Deploy Compromised Device Detection Method;5
+22;Mobile;Replication Through Removable Media;Use Recent OS Version;5
+23;Mobile;Stored Application Data;Use Recent OS Version;5
+24;Mobile;Code Signing Policy Modification;User Guidance;8
+25;Mobile;Boot or Logon Initialization Scripts;Attestation;5
+26;Mobile;Device Administrator Permissions;User Guidance;8
+27;Mobile;Compromise Application Executable;Use Recent OS Version;5
+28;Mobile;Clipboard Data;Use Recent OS Version;5
+29;Mobile;Protected User Data;Use Recent OS Version;5
+30;Mobile;Command and Scripting Interpreter;Deploy Compromised Device Detection Method;5
+31;Mobile;Process Discovery;Attestation;5
+32;Mobile;Supply Chain Compromise;Application Developer Guidance;5
+33;Mobile;Screen Capture;Enterprise Policy;8
+34;Mobile;Out of Band Data;User Guidance;8
+35;Mobile;Execution Guardrails;User Guidance;8
+36;Mobile;Suppress Application Icon;Use Recent OS Version;5
+37;Mobile;Contact List;User Guidance;8
+38;Mobile;Call Control;User Guidance;8
+39;Mobile;Impair Defenses;User Guidance;8
+40;Mobile;Boot or Logon Initialization Scripts;Security Updates;8
+41;Mobile;System Runtime API Hijacking;Attestation;5
+42;Mobile;GUI Input Capture;Use Recent OS Version;5
+43;Mobile;Input Capture;Enterprise Policy;8
+44;Mobile;User Evasion;Deploy Compromised Device Detection Method;5
+45;Mobile;Event Triggered Execution;Use Recent OS Version;5
+46;Mobile;Keylogging;User Guidance;8
+47;Mobile;Unix Shell;Attestation;5
+48;Mobile;Video Capture;Use Recent OS Version;5
+49;Mobile;Screen Capture;User Guidance;8
+50;Mobile;Keychain;Deploy Compromised Device Detection Method;5
+51;Mobile;Credentials from Password Store;Deploy Compromised Device Detection Method;5
+52;Mobile;Location Tracking;User Guidance;8
+53;Mobile;Software Discovery;User Guidance;8
+54;Mobile;Broadcast Receivers;Use Recent OS Version;5
+55;Mobile;Credentials from Password Store;Security Updates;8
+56;Mobile;Device Lockout;Use Recent OS Version;5
+57;Mobile;Prevent Application Removal;User Guidance;8
+58;Mobile;Prevent Application Removal;Enterprise Policy;8
+59;Mobile;Replication Through Removable Media;Enterprise Policy;8
+60;Mobile;Disable or Modify Tools;User Guidance;8
+61;Mobile;Boot or Logon Initialization Scripts;System Partition Integrity;6
+62;Mobile;Security Software Discovery;User Guidance;8
+63;Mobile;Impair Defenses;Enterprise Policy;8
+64;Mobile;Execution Guardrails;Use Recent OS Version;5
+65;Mobile;Impair Defenses;System Partition Integrity;6
+66;Mobile;Hijack Execution Flow;Attestation;5
+67;Mobile;Access Notifications;User Guidance;8
+68;Mobile;Adversary-in-the-Middle;Encrypt Network Traffic;5
+69;Mobile;Input Capture;Use Recent OS Version;5
+70;Mobile;Disable or Modify Tools;System Partition Integrity;6
+71;Mobile;SMS Control;User Guidance;8
+72;Mobile;Boot or Logon Initialization Scripts;Lock Bootloader;5
+73;Mobile;Impair Defenses;Deploy Compromised Device Detection Method;5
+74;Mobile;URI Hijacking;User Guidance;8
+75;Mobile;Call Log;User Guidance;8
+76;Mobile;Location Tracking;Interconnection Filtering;5
+77;Mobile;GUI Input Capture;Enterprise Policy;8
+78;Mobile;File and Directory Discovery;Use Recent OS Version;5
+79;Mobile;Subvert Trust Controls;Use Recent OS Version;5
+80;Mobile;Steal Application Access Token;User Guidance;8
+81;Mobile;Compromise Software Supply Chain;Security Updates;8
+82;Mobile;Access Notifications;Enterprise Policy;8
+83;Mobile;Download New Code at Runtime;Use Recent OS Version;5
+84;Mobile;Compromise Client Software Binary;Attestation;5
+85;Mobile;Endpoint Denial of Service;Use Recent OS Version;5
+86;Mobile;Replication Through Removable Media;User Guidance;8
+87;Mobile;Abuse Elevation Control Mechanism;Application Developer Guidance;5
+88;Mobile;Account Access Removal;User Guidance;8
+89;Mobile;System Runtime API Hijacking;System Partition Integrity;6
+90;Mobile;Compromise Software Supply Chain;System Partition Integrity;6
+91;Mobile;Code Signing Policy Modification;Enterprise Policy;8
+92;Mobile;Compromise Client Software Binary;Lock Bootloader;5
+93;Mobile;Subvert Trust Controls;User Guidance;8
+94;Mobile;Protected User Data;User Guidance;8
+95;Mobile;Exploitation for Privilege Escalation;Attestation;5
+96;Mobile;Device Administrator Permissions;Use Recent OS Version;5
+97;Mobile;Data Manipulation;Use Recent OS Version;5
+98;Mobile;Screen Capture;Application Developer Guidance;5
+99;Mobile;Uninstall Malicious Application;User Guidance;8
+100;Mobile;Hijack Execution Flow;System Partition Integrity;6
+101;Mobile;Drive-By Compromise;Security Updates;8
+102;Mobile;Supply Chain Compromise;Security Updates;8
+103;Mobile;URI Hijacking;Use Recent OS Version;5
+104;Mobile;Impersonate SS7 Nodes;Interconnection Filtering;5
+105;Mobile;Steal Application Access Token;Application Developer Guidance;5
+106;Mobile;Keychain;Security Updates;8
+107;Mobile;Exploitation for Privilege Escalation;Security Updates;8
+108;Mobile;Location Tracking;Use Recent OS Version;5
+109;Mobile;Geofencing;User Guidance;8
+110;Mobile;Replication Through Removable Media;Security Updates;8
+111;Mobile;Audio Capture;Use Recent OS Version;5
+112;Mobile;Lockscreen Bypass;Security Updates;8
+113;Mobile;Indicator Removal on Host;User Guidance;8
+114;Mobile;Access Notifications;Application Developer Guidance;5
+115;Mobile;Adversary-in-the-Middle;Use Recent OS Version;5
+116;Mobile;Credentials from Password Store;Attestation;5
+117;Mobile;Compromise Client Software Binary;System Partition Integrity;6
+118;Mobile;Lockscreen Bypass;Enterprise Policy;8
+119;Mobile;Endpoint Denial of Service;User Guidance;8
+120;Mobile;Steal Application Access Token;Use Recent OS Version;5
+121;Mobile;Disable or Modify Tools;Security Updates;8
+122;Mobile;Foreground Persistence;User Guidance;8
+123;Mobile;Hooking;Attestation;5
+124;Mobile;Compromise Hardware Supply Chain;Security Updates;8
+125;Mobile;Process Discovery;Use Recent OS Version;5
+126;Mobile;Replication Through Removable Media;Lock Bootloader;5
+127;Mobile;Transmitted Data Manipulation;Use Recent OS Version;5
+128;Mobile;URI Hijacking;Application Developer Guidance;5
+129;Mobile;Remote Device Management Services;Enterprise Policy;8
+130;Mobile;File Deletion;User Guidance;8
+131;Mobile;Compromise Client Software Binary;Security Updates;8
+132;Mobile;Location Tracking;Enterprise Policy;8
+133;Mobile;Suppress Application Icon;User Guidance;8
+134;Mobile;Generate Traffic from Victim;User Guidance;8
+135;Mobile;Uninstall Malicious Application;Security Updates;8
+136;Mobile;System Network Configuration Discovery;Use Recent OS Version;5
+137;Mobile;Remote Device Management Services;User Guidance;8
+138;Mobile;Command and Scripting Interpreter;Attestation;5
+139;Mobile;Geofencing;Use Recent OS Version;5
+140;Mobile;Compromise Application Executable;Security Updates;8
+141;Mobile;Software Discovery;Use Recent OS Version;5
+142;Mobile;Keylogging;Enterprise Policy;8
+1;Enterprise;Exploitation for Defense Evasion;Application Isolation and Sandboxing;5
+2;Enterprise;Match Legitimate Name or Location;Restrict File and Directory Permissions;6
+3;Enterprise;Compromise Software Dependencies and Development Tools;Vulnerability Scanning;8
+4;Enterprise;Silver Ticket;Password Policies;7
+5;Enterprise;Chat Messages;Audit;6
+6;Enterprise;LSA Secrets;Password Policies;7
+7;Enterprise;Setuid and Setgid;Operating System Configuration;7
+8;Enterprise;Network Device Configuration Dump;Network Segmentation;8
+9;Enterprise;Dynamic Data Exchange;Disable or Remove Feature or Program;6
+10;Enterprise;Adversary-in-the-Middle;User Training;8
+11;Enterprise;OS Credential Dumping;Privileged Account Management;6
+12;Enterprise;Network Address Translation Traversal;Filter Network Traffic;7
+13;Enterprise;Asymmetric Cryptography;Network Intrusion Prevention;8
+14;Enterprise;Account Manipulation;Network Segmentation;8
+15;Enterprise;Data from Cloud Storage;Restrict File and Directory Permissions;6
+16;Enterprise;Data Obfuscation;Network Intrusion Prevention;8
+17;Enterprise;Native API;Behavior Prevention on Endpoint;5
+18;Enterprise;Pass the Ticket;Password Policies;7
+19;Enterprise;Screensaver;Disable or Remove Feature or Program;6
+20;Enterprise;Server Software Component;Privileged Account Management;6
+21;Enterprise;Login Hook;Restrict File and Directory Permissions;6
+22;Enterprise;Default Accounts;Password Policies;7
+23;Enterprise;Services File Permissions Weakness;Audit;6
+24;Enterprise;Firmware Corruption;Update Software;8
+25;Enterprise;Password Policy Discovery;Password Policies;7
+26;Enterprise;User Execution;User Training;8
+27;Enterprise;Chat Messages;User Training;8
+28;Enterprise;Patch System Image;Multi-factor Authentication;8
+29;Enterprise;Emond;Disable or Remove Feature or Program;6
+30;Enterprise;Exploitation for Credential Access;Update Software;8
+31;Enterprise;Spoof Security Alerting;Execution Prevention;6
+32;Enterprise;Drive-by Compromise;Update Software;8
+33;Enterprise;Password Guessing;Multi-factor Authentication;8
+34;Enterprise;Establish Accounts;Pre-compromise;5
+35;Enterprise;Domain Account;Privileged Account Management;6
+36;Enterprise;Password Managers;Update Software;8
+37;Enterprise;SSH;Disable or Remove Feature or Program;6
+38;Enterprise;MMC;Disable or Remove Feature or Program;6
+39;Enterprise;Masquerade File Type;Execution Prevention;6
+40;Enterprise;Create or Modify System Process;Restrict File and Directory Permissions;6
+41;Enterprise;Sudo and Sudo Caching;Operating System Configuration;7
+42;Enterprise;Ingress Tool Transfer;Network Intrusion Prevention;8
+43;Enterprise;Data Destruction;Data Backup;6
+44;Enterprise;Inhibit System Recovery;Data Backup;6
+45;Enterprise;Port Knocking;Filter Network Traffic;7
+46;Enterprise;Transfer Data to Cloud Account;Password Policies;7
+47;Enterprise;Forge Web Credentials;Software Configuration;8
+48;Enterprise;Exfiltration Over Asymmetric Encrypted Non-C2 Protocol;Data Loss Prevention;5
+49;Enterprise;MSBuild;Execution Prevention;6
+50;Enterprise;Software Deployment Tools;Network Segmentation;8
+51;Enterprise;Credential Stuffing;User Account Management;8
+52;Enterprise;Exploitation for Privilege Escalation;Threat Intelligence Program;8
+53;Enterprise;Modify Authentication Process;Restrict File and Directory Permissions;6
+54;Enterprise;Modify Authentication Process;Multi-factor Authentication;8
+55;Enterprise;User Execution;Execution Prevention;6
+56;Enterprise;External Remote Services;Network Segmentation;8
+57;Enterprise;NTDS;User Training;8
+58;Enterprise;Software Deployment Tools;Update Software;8
+59;Enterprise;Run Virtual Instance;Execution Prevention;6
+60;Enterprise;Visual Basic;Restrict Web-Based Content;5
+61;Enterprise;Modify System Image;Privileged Account Management;6
+62;Enterprise;Compromise Software Supply Chain;Update Software;8
+63;Enterprise;RDP Hijacking;Disable or Remove Feature or Program;6
+64;Enterprise;Build Image on Host;Privileged Account Management;6
+65;Enterprise;Additional Email Delegate Permissions;Privileged Account Management;6
+66;Enterprise;Code Repositories;User Training;8
+67;Enterprise;Windows Management Instrumentation Event Subscription;Privileged Account Management;6
+68;Enterprise;Disable or Modify System Firewall;Restrict File and Directory Permissions;6
+69;Enterprise;Fileless Storage;Audit;6
+70;Enterprise;Path Interception by PATH Environment Variable;Audit;6
+71;Enterprise;Create Account;Privileged Account Management;6
+72;Enterprise;Gather Victim Org Information;Pre-compromise;5
+73;Enterprise;SNMP (MIB Dump);Software Configuration;8
+74;Enterprise;Time Providers;Restrict File and Directory Permissions;6
+75;Enterprise;Native API;Execution Prevention;6
+76;Enterprise;Msiexec;Privileged Account Management;6
+77;Enterprise;Scheduled Task/Job;Privileged Account Management;6
+78;Enterprise;Implant Internal Image;Audit;6
+79;Enterprise;LSASS Memory;Behavior Prevention on Endpoint;5
+80;Enterprise;Indicator Removal;Encrypt Sensitive Information;5
+81;Enterprise;Mark-of-the-Web Bypass;Disable or Remove Feature or Program;6
+82;Enterprise;Multi-Factor Authentication Request Generation;Multi-factor Authentication;8
+83;Enterprise;Path Interception by Unquoted Path;Restrict File and Directory Permissions;6
+84;Enterprise;Non-Application Layer Protocol;Network Segmentation;8
+85;Enterprise;Cloud Accounts;Account Use Policies;5
+86;Enterprise;Data from Configuration Repository;Network Intrusion Prevention;8
+87;Enterprise;Acquire Access;Pre-compromise;5
+88;Enterprise;XPC Services;Application Developer Guidance;5
+89;Enterprise;Masquerading;Restrict File and Directory Permissions;6
+90;Enterprise;Proc Memory;Restrict File and Directory Permissions;6
+91;Enterprise;Phishing for Information;Software Configuration;8
+92;Enterprise;Proxy;Network Intrusion Prevention;8
+93;Enterprise;SIP and Trust Provider Hijacking;Execution Prevention;6
+94;Enterprise;Data from Configuration Repository;Update Software;8
+95;Enterprise;Standard Encoding;Network Intrusion Prevention;8
+96;Enterprise;Command and Scripting Interpreter;Restrict Web-Based Content;5
+97;Enterprise;Malicious Image;Code Signing;5
+98;Enterprise;Reversible Encryption;Privileged Account Management;6
+99;Enterprise;Network Boundary Bridging;Credential Access Protection;5
+100;Enterprise;Unsecured Credentials;User Training;8
+101;Enterprise;Steal or Forge Kerberos Tickets;Encrypt Sensitive Information;5
+102;Enterprise;Regsvcs/Regasm;Disable or Remove Feature or Program;6
+103;Enterprise;Dynamic Linker Hijacking;Operating System Configuration;7
+104;Enterprise;Boot or Logon Initialization Scripts;Restrict Registry Permissions;5
+105;Enterprise;Browser Extensions;Execution Prevention;6
+106;Enterprise;Group Policy Modification;User Account Management;8
+107;Enterprise;JavaScript;Behavior Prevention on Endpoint;5
+108;Enterprise;Patch System Image;Boot Integrity;6
+109;Enterprise;Cloud Account;Audit;6
+110;Enterprise;Inter-Process Communication;Application Developer Guidance;5
+111;Enterprise;Search Engines;Pre-compromise;5
+112;Enterprise;Masquerading;Behavior Prevention on Endpoint;5
+113;Enterprise;Protocol Impersonation;Network Intrusion Prevention;8
+114;Enterprise;At;Privileged Account Management;6
+115;Enterprise;Modify Authentication Process;Privileged Process Integrity;5
+116;Enterprise;ARP Cache Poisoning;Limit Access to Resource Over Network;6
+117;Enterprise;Create Snapshot;User Account Management;8
+118;Enterprise;Unused/Unsupported Cloud Regions;Software Configuration;8
+119;Enterprise;Acquire Infrastructure;Pre-compromise;5
+120;Enterprise;Data Manipulation;Encrypt Sensitive Information;5
+121;Enterprise;Create Cloud Instance;Audit;6
+122;Enterprise;Password Spraying;Account Use Policies;5
+123;Enterprise;Network Address Translation Traversal;Privileged Account Management;6
+124;Enterprise;Web Service;Restrict Web-Based Content;5
+125;Enterprise;Stored Data Manipulation;Encrypt Sensitive Information;5
+126;Enterprise;Reversible Encryption;Password Policies;7
+127;Enterprise;Phishing;User Training;8
+128;Enterprise;Build Image on Host;Limit Access to Resource Over Network;6
+129;Enterprise;Unsecured Credentials;Audit;6
+130;Enterprise;CMSTP;Execution Prevention;6
+131;Enterprise;At;Operating System Configuration;7
+132;Enterprise;Password Guessing;Password Policies;7
+133;Enterprise;Gather Victim Host Information;Pre-compromise;5
+134;Enterprise;Pre-OS Boot;Privileged Account Management;6
+135;Enterprise;Match Legitimate Name or Location;Code Signing;5
+136;Enterprise;Proxy;SSL/TLS Inspection;8
+137;Enterprise;Inter-Process Communication;Behavior Prevention on Endpoint;5
+138;Enterprise;Indicator Removal;Restrict File and Directory Permissions;6
+139;Enterprise;Additional Email Delegate Permissions;Multi-factor Authentication;8
+140;Enterprise;TFTP Boot;Operating System Configuration;7
+141;Enterprise;Clear Windows Event Logs;Restrict File and Directory Permissions;6
+142;Enterprise;NTDS;Password Policies;7
+143;Enterprise;Mavinject;Disable or Remove Feature or Program;6
+144;Enterprise;VNC;Limit Software Installation;5
+145;Enterprise;LSASS Memory;Privileged Process Integrity;5
+146;Enterprise;Spearphishing Attachment;Restrict Web-Based Content;5
+147;Enterprise;Employee Names;Pre-compromise;5
+148;Enterprise;Exfiltration Over Alternative Protocol;Network Segmentation;8
+149;Enterprise;/etc/passwd and /etc/shadow;Password Policies;7
+150;Enterprise;Systemd Timers;Privileged Account Management;6
+151;Enterprise;LLMNR/NBT-NS Poisoning and SMB Relay;Disable or Remove Feature or Program;6
+152;Enterprise;Dynamic Resolution;Network Intrusion Prevention;8
+153;Enterprise;Steal Application Access Token;User Account Management;8
+154;Enterprise;Network Trust Dependencies;Pre-compromise;5
+155;Enterprise;Sharepoint;User Training;8
+156;Enterprise;Command Obfuscation;Behavior Prevention on Endpoint;5
+157;Enterprise;Domain Account;Operating System Configuration;7
+158;Enterprise;Device Registration;Multi-factor Authentication;8
+159;Enterprise;XDG Autostart Entries;Restrict File and Directory Permissions;6
+160;Enterprise;Exfiltration over USB;Data Loss Prevention;5
+161;Enterprise;VNC;Audit;6
+162;Enterprise;Cloud Accounts;User Training;8
+163;Enterprise;Search Closed Sources;Pre-compromise;5
+164;Enterprise;Remote Service Session Hijacking;Privileged Account Management;6
+165;Enterprise;Traffic Duplication;User Account Management;8
+166;Enterprise;Rundll32;Exploit Protection;6
+167;Enterprise;LC_LOAD_DYLIB Addition;Audit;6
+168;Enterprise;Traffic Signaling;Filter Network Traffic;7
+169;Enterprise;Hijack Execution Flow;User Account Management;8
+170;Enterprise;Vulnerabilities;Pre-compromise;5
+171;Enterprise;Remote Desktop Protocol;Privileged Account Management;6
+172;Enterprise;Credentials in Registry;Privileged Account Management;6
+173;Enterprise;Adversary-in-the-Middle;Network Segmentation;8
+174;Enterprise;Multi-Factor Authentication Request Generation;User Training;8
+175;Enterprise;SMB/Windows Admin Shares;Filter Network Traffic;7
+176;Enterprise;Email Forwarding Rule;Encrypt Sensitive Information;5
+177;Enterprise;Office Application Startup;Update Software;8
+178;Enterprise;COR_PROFILER;Restrict Registry Permissions;5
+179;Enterprise;Outlook Rules;Update Software;8
+180;Enterprise;Network Boundary Bridging;Password Policies;7
+181;Enterprise;Domain Controller Authentication;Privileged Account Management;6
+182;Enterprise;Malicious Link;Network Intrusion Prevention;8
+183;Enterprise;Software Packing;Antivirus/Antimalware;5
+184;Enterprise;Forced Authentication;Filter Network Traffic;7
+185;Enterprise;Remote Service Session Hijacking;Disable or Remove Feature or Program;6
+186;Enterprise;SQL Stored Procedures;Code Signing;5
+187;Enterprise;Services Registry Permissions Weakness;Restrict Registry Permissions;5
+188;Enterprise;Non-Application Layer Protocol;Network Intrusion Prevention;8
+189;Enterprise;System Firmware;Update Software;8
+190;Enterprise;Impair Defenses;Restrict File and Directory Permissions;6
+191;Enterprise;Domain Trust Discovery;Audit;6
+192;Enterprise;Hardware;Pre-compromise;5
+193;Enterprise;Impair Defenses;Execution Prevention;6
+194;Enterprise;DNS;Network Intrusion Prevention;8
+195;Enterprise;Wordlist Scanning;Disable or Remove Feature or Program;6
+196;Enterprise;ARP Cache Poisoning;User Training;8
+197;Enterprise;User Execution;Behavior Prevention on Endpoint;5
+198;Enterprise;Network Security Appliances;Pre-compromise;5
+199;Enterprise;Credentials in Registry;Password Policies;7
+200;Enterprise;Web Cookies;Software Configuration;8
+201;Enterprise;Forge Web Credentials;Privileged Account Management;6
+202;Enterprise;Hijack Execution Flow;Application Developer Guidance;5
+203;Enterprise;Network Device Configuration Dump;Update Software;8
+204;Enterprise;Spearphishing Service;User Training;8
+205;Enterprise;Scheduled Task;Audit;6
+206;Enterprise;Browser Extensions;User Training;8
+207;Enterprise;Data Manipulation;Restrict File and Directory Permissions;6
+208;Enterprise;Security Support Provider;Privileged Process Integrity;5
+209;Enterprise;One-Way Communication;Restrict Web-Based Content;5
+210;Enterprise;Exploitation of Remote Services;Disable or Remove Feature or Program;6
+211;Enterprise;Disk Content Wipe;Data Backup;6
+212;Enterprise;Container API;Limit Access to Resource Over Network;6
+213;Enterprise;Logon Script (Windows);Restrict Registry Permissions;5
+214;Enterprise;Credentials In Files;Audit;6
+215;Enterprise;Double File Extension;User Training;8
+216;Enterprise;NTFS File Attributes;Restrict File and Directory Permissions;6
+217;Enterprise;Search Open Websites/Domains;Audit;6
+218;Enterprise;Inter-Process Communication;Privileged Account Management;6
+219;Enterprise;Cloud Infrastructure Discovery;User Account Management;8
+220;Enterprise;Credentials from Password Stores;Password Policies;7
+221;Enterprise;Software Deployment Tools;Multi-factor Authentication;8
+222;Enterprise;Visual Basic;Execution Prevention;6
+223;Enterprise;Local Account;Multi-factor Authentication;8
+224;Enterprise;Network Topology;Pre-compromise;5
+225;Enterprise;RDP Hijacking;Limit Access to Resource Over Network;6
+226;Enterprise;Remote Desktop Protocol;Audit;6
+227;Enterprise;Masquerading;Execution Prevention;6
+228;Enterprise;Malicious Link;Restrict Web-Based Content;5
+229;Enterprise;Clear Linux or Mac System Logs;Encrypt Sensitive Information;5
+230;Enterprise;Indicator Blocking;Restrict File and Directory Permissions;6
+231;Enterprise;Data from Cloud Storage;Multi-factor Authentication;8
+232;Enterprise;Malicious Image;User Training;8
+233;Enterprise;AppInit DLLs;Update Software;8
+234;Enterprise;Local Account;Operating System Configuration;7
+235;Enterprise;PowerShell Profile;Restrict File and Directory Permissions;6
+236;Enterprise;Archive via Utility;Audit;6
+237;Enterprise;Double File Extension;Operating System Configuration;7
+238;Enterprise;Obfuscated Files or Information;Behavior Prevention on Endpoint;5
+239;Enterprise;Msiexec;Disable or Remove Feature or Program;6
+240;Enterprise;Domain Account;Network Segmentation;8
+241;Enterprise;Exploitation for Privilege Escalation;Execution Prevention;6
+242;Enterprise;Unix Shell;Execution Prevention;6
+243;Enterprise;Windows Management Instrumentation;User Account Management;8
+244;Enterprise;Create Process with Token;User Account Management;8
+245;Enterprise;Exfiltration over USB;Limit Hardware Installation;8
+246;Enterprise;OS Credential Dumping;Privileged Process Integrity;5
+247;Enterprise;Path Interception by Unquoted Path;Audit;6
+248;Enterprise;Trusted Developer Utilities Proxy Execution;Execution Prevention;6
+249;Enterprise;Exploit Public-Facing Application;Vulnerability Scanning;8
+250;Enterprise;Brute Force;Multi-factor Authentication;8
+251;Enterprise;Email Forwarding Rule;Audit;6
+252;Enterprise;Services File Permissions Weakness;User Account Control;8
+253;Enterprise;Pass the Hash;User Account Control;8
+254;Enterprise;Pass the Ticket;Privileged Account Management;6
+255;Enterprise;Create Account;Multi-factor Authentication;8
+256;Enterprise;Path Interception by PATH Environment Variable;Restrict File and Directory Permissions;6
+257;Enterprise;Sudo and Sudo Caching;Privileged Account Management;6
+258;Enterprise;System Services;Privileged Account Management;6
+259;Enterprise;Proc Filesystem;Password Policies;7
+260;Enterprise;Deploy Container;User Account Management;8
+261;Enterprise;BITS Jobs;User Account Management;8
+262;Enterprise;Subvert Trust Controls;Software Configuration;8
+263;Enterprise;External Remote Services;Multi-factor Authentication;8
+264;Enterprise;Downgrade System Image;Multi-factor Authentication;8
+265;Enterprise;KernelCallbackTable;Behavior Prevention on Endpoint;5
+266;Enterprise;Disk Structure Wipe;Data Backup;6
+267;Enterprise;Python;Antivirus/Antimalware;5
+268;Enterprise;Encrypted Channel;Network Intrusion Prevention;8
+269;Enterprise;Dynamic Data Exchange;Application Isolation and Sandboxing;5
+270;Enterprise;Command Obfuscation;Antivirus/Antimalware;5
+271;Enterprise;Bypass User Account Control;Update Software;8
+272;Enterprise;XDG Autostart Entries;User Account Management;8
+273;Enterprise;VNC;Disable or Remove Feature or Program;6
+274;Enterprise;Group Policy Preferences;Update Software;8
+275;Enterprise;Malicious File;Behavior Prevention on Endpoint;5
+276;Enterprise;Mail Protocols;Network Intrusion Prevention;8
+277;Enterprise;Valid Accounts;Privileged Account Management;6
+278;Enterprise;Python;Audit;6
+279;Enterprise;Hijack Execution Flow;Restrict File and Directory Permissions;6
+280;Enterprise;Exfiltration Over Alternative Protocol;Network Intrusion Prevention;8
+281;Enterprise;Cloud Instance Metadata API;Disable or Remove Feature or Program;6
+282;Enterprise;Unsecured Credentials;Password Policies;7
+283;Enterprise;Web Services;Pre-compromise;5
+284;Enterprise;Application Layer Protocol;Network Intrusion Prevention;8
+285;Enterprise;Data from Information Repositories;User Training;8
+286;Enterprise;Spearphishing Link;User Account Management;8
+287;Enterprise;Verclsid;Filter Network Traffic;7
+288;Enterprise;Make and Impersonate Token;User Account Management;8
+289;Enterprise;Disk Wipe;Data Backup;6
+290;Enterprise;Create or Modify System Process;Audit;6
+291;Enterprise;Create Account;Network Segmentation;8
+292;Enterprise;Gatekeeper Bypass;Execution Prevention;6
+293;Enterprise;Multi-Factor Authentication;Audit;6
+294;Enterprise;Serverless;Pre-compromise;5
+295;Enterprise;Group Policy Preferences;Audit;6
+296;Enterprise;Windows Service;Behavior Prevention on Endpoint;5
+297;Enterprise;Application or System Exploitation;Filter Network Traffic;7
+298;Enterprise;Valid Accounts;Password Policies;7
+299;Enterprise;Exfiltration Over Asymmetric Encrypted Non-C2 Protocol;Filter Network Traffic;7
+300;Enterprise;Local Account;Privileged Account Management;6
+301;Enterprise;External Remote Services;Disable or Remove Feature or Program;6
+302;Enterprise;Executable Installer File Permissions Weakness;User Account Control;8
+303;Enterprise;Container and Resource Discovery;User Account Management;8
+304;Enterprise;Multi-Factor Authentication;Multi-factor Authentication;8
+305;Enterprise;Re-opened Applications;Disable or Remove Feature or Program;6
+306;Enterprise;Web Session Cookie;Software Configuration;8
+307;Enterprise;Systemd Service;Limit Software Installation;5
+308;Enterprise;LLMNR/NBT-NS Poisoning and SMB Relay;Network Intrusion Prevention;8
+309;Enterprise;Automated Collection;Encrypt Sensitive Information;5
+310;Enterprise;Link Target;Pre-compromise;5
+311;Enterprise;OS Credential Dumping;Credential Access Protection;5
+312;Enterprise;Silver Ticket;Privileged Account Management;6
+313;Enterprise;Browser Session Hijacking;User Account Management;8
+314;Enterprise;Multi-Factor Authentication Request Generation;Account Use Policies;5
+315;Enterprise;Extra Window Memory Injection;Behavior Prevention on Endpoint;5
+316;Enterprise;Dead Drop Resolver;Network Intrusion Prevention;8
+317;Enterprise;Upload Tool;Pre-compromise;5
+318;Enterprise;Component Object Model;Application Isolation and Sandboxing;5
+319;Enterprise;Exfiltration Over Unencrypted Non-C2 Protocol;Network Segmentation;8
+320;Enterprise;Malicious Image;Audit;6
+321;Enterprise;DLL Side-Loading;Update Software;8
+322;Enterprise;Gather Victim Network Information;Pre-compromise;5
+323;Enterprise;Malvertising;Pre-compromise;5
+324;Enterprise;Path Interception by Search Order Hijacking;Execution Prevention;6
+325;Enterprise;Sharepoint;Audit;6
+326;Enterprise;SID-History Injection;Active Directory Configuration;5
+327;Enterprise;Spearphishing Link;User Training;8
+328;Enterprise;Hardware Additions;Limit Hardware Installation;8
+329;Enterprise;Steal Web Session Cookie;User Training;8
+330;Enterprise;Remote Service Session Hijacking;Network Segmentation;8
+331;Enterprise;DNS;Pre-compromise;5
+332;Enterprise;Server Software Component;Code Signing;5
+333;Enterprise;Network Address Translation Traversal;Password Policies;7
+334;Enterprise;Trusted Relationship;Multi-factor Authentication;8
+335;Enterprise;Multi-Factor Authentication;User Account Management;8
+336;Enterprise;Odbcconf;Disable or Remove Feature or Program;6
+337;Enterprise;Remote Services;User Account Management;8
+338;Enterprise;Resource Forking;Application Developer Guidance;5
+339;Enterprise;Password Managers;Password Policies;7
+340;Enterprise;Startup Items;Restrict File and Directory Permissions;6
+341;Enterprise;Additional Email Delegate Permissions;Disable or Remove Feature or Program;6
+342;Enterprise;LSASS Memory;User Training;8
+343;Enterprise;Container Administration Command;Disable or Remove Feature or Program;6
+344;Enterprise;ARP Cache Poisoning;Filter Network Traffic;7
+345;Enterprise;Masquerade File Type;Behavior Prevention on Endpoint;5
+346;Enterprise;NTDS;Privileged Account Management;6
+347;Enterprise;Adversary-in-the-Middle;Disable or Remove Feature or Program;6
+348;Enterprise;Network Boundary Bridging;Filter Network Traffic;7
+349;Enterprise;Email Hiding Rules;Audit;6
+350;Enterprise;Domain Policy Modification;User Account Management;8
+351;Enterprise;Search Victim-Owned Websites;Pre-compromise;5
+352;Enterprise;Application Access Token;Audit;6
+353;Enterprise;SSH Hijacking;Disable or Remove Feature or Program;6
+354;Enterprise;Botnet;Pre-compromise;5
+355;Enterprise;Container and Resource Discovery;Limit Access to Resource Over Network;6
+356;Enterprise;Cloud Accounts;Multi-factor Authentication;8
+357;Enterprise;SNMP (MIB Dump);Filter Network Traffic;7
+358;Enterprise;Winlogon Helper DLL;Execution Prevention;6
+359;Enterprise;Execution Guardrails;Do Not Mitigate;5
+360;Enterprise;Patch System Image;Credential Access Protection;5
+361;Enterprise;Malicious Image;Network Intrusion Prevention;8
+362;Enterprise;Outlook Forms;Behavior Prevention on Endpoint;5
+363;Enterprise;Application Access Token;Encrypt Sensitive Information;5
+364;Enterprise;Screensaver;Execution Prevention;6
+365;Enterprise;Remote Access Software;Network Intrusion Prevention;8
+366;Enterprise;Template Injection;Disable or Remove Feature or Program;6
+367;Enterprise;Cron;Audit;6
+368;Enterprise;Service Stop;Restrict Registry Permissions;5
+369;Enterprise;Abuse Elevation Control Mechanism;Execution Prevention;6
+370;Enterprise;Network Provider DLL;Operating System Configuration;7
+371;Enterprise;Exfiltration Over Physical Medium;Data Loss Prevention;5
+372;Enterprise;Kernel Modules and Extensions;Execution Prevention;6
+373;Enterprise;Malicious File;User Training;8
+374;Enterprise;Abuse Elevation Control Mechanism;User Account Control;8
+375;Enterprise;Dynamic Data Exchange;Behavior Prevention on Endpoint;5
+376;Enterprise;Code Repositories;Audit;6
+377;Enterprise;Web Cookies;Audit;6
+378;Enterprise;Asynchronous Procedure Call;Behavior Prevention on Endpoint;5
+379;Enterprise;Mavinject;Execution Prevention;6
+380;Enterprise;Archive Collected Data;Audit;6
+381;Enterprise;Exfiltration Over Physical Medium;Disable or Remove Feature or Program;6
+382;Enterprise;Clear Command History;Restrict File and Directory Permissions;6
+383;Enterprise;Exfiltration to Code Repository;Restrict Web-Based Content;5
+384;Enterprise;Windows Management Instrumentation;Execution Prevention;6
+385;Enterprise;Trusted Developer Utilities Proxy Execution;Disable or Remove Feature or Program;6
+386;Enterprise;DLL Search Order Hijacking;Audit;6
+387;Enterprise;Unsecured Credentials;Active Directory Configuration;5
+388;Enterprise;Replication Through Removable Media;Disable or Remove Feature or Program;6
+389;Enterprise;Obfuscated Files or Information;Audit;6
+390;Enterprise;Shared Modules;Execution Prevention;6
+391;Enterprise;Credentials In Files;User Training;8
+392;Enterprise;Remote Desktop Protocol;Disable or Remove Feature or Program;6
+393;Enterprise;Exfiltration Over Web Service;Restrict Web-Based Content;5
+394;Enterprise;Systemd Timers;User Account Management;8
+395;Enterprise;Valid Accounts;User Account Management;8
+396;Enterprise;Inter-Process Communication;Software Configuration;8
+397;Enterprise;Exfiltration Over Bluetooth;Operating System Configuration;7
+398;Enterprise;Cloud Account;Network Segmentation;8
+399;Enterprise;LSA Secrets;User Training;8
+400;Enterprise;Adversary-in-the-Middle;Filter Network Traffic;7
+401;Enterprise;Inter-Process Communication;Disable or Remove Feature or Program;6
+402;Enterprise;Build Image on Host;Audit;6
+403;Enterprise;Compromise Client Software Binary;Code Signing;5
+404;Enterprise;Data from Local System;Data Loss Prevention;5
+405;Enterprise;Subvert Trust Controls;Execution Prevention;6
+406;Enterprise;Cloud API;Execution Prevention;6
+407;Enterprise;Stage Capabilities;Pre-compromise;5
+408;Enterprise;Command and Scripting Interpreter;Code Signing;5
+409;Enterprise;Disable Windows Event Logging;Audit;6
+410;Enterprise;Deploy Container;Network Segmentation;8
+411;Enterprise;OS Credential Dumping;Encrypt Sensitive Information;5
+412;Enterprise;Exfiltration Over Unencrypted Non-C2 Protocol;Network Intrusion Prevention;8
+413;Enterprise;Exploits;Pre-compromise;5
+414;Enterprise;Windows Management Instrumentation Event Subscription;Behavior Prevention on Endpoint;5
+415;Enterprise;Data from Configuration Repository;Network Segmentation;8
+416;Enterprise;Kerberoasting;Password Policies;7
+417;Enterprise;Software Deployment Tools;Privileged Account Management;6
+418;Enterprise;Cloud Account;Multi-factor Authentication;8
+419;Enterprise;Network Device CLI;User Account Management;8
+420;Enterprise;Spearphishing via Service;User Training;8
+421;Enterprise;Remote Access Software;Execution Prevention;6
+422;Enterprise;Taint Shared Content;Execution Prevention;6
+423;Enterprise;Drive-by Compromise;Application Isolation and Sandboxing;5
+424;Enterprise;Domains;Pre-compromise;5
+425;Enterprise;Data Encoding;Network Intrusion Prevention;8
+426;Enterprise;SAML Tokens;User Account Management;8
+427;Enterprise;Server Software Component;User Account Management;8
+428;Enterprise;Asymmetric Cryptography;SSL/TLS Inspection;8
+429;Enterprise;Replication Through Removable Media;Behavior Prevention on Endpoint;5
+430;Enterprise;Brute Force;User Account Management;8
+431;Enterprise;Software Deployment Tools;User Account Management;8
+432;Enterprise;Cloud Accounts;Privileged Account Management;6
+433;Enterprise;Container Orchestration Job;User Account Management;8
+434;Enterprise;Impair Defenses;Restrict Registry Permissions;5
+435;Enterprise;Clear Persistence;Remote Data Storage;6
+436;Enterprise;Credential Stuffing;Password Policies;7
+437;Enterprise;Non-Standard Port;Network Segmentation;8
+438;Enterprise;Plist File Modification;Application Developer Guidance;5
+439;Enterprise;Wordlist Scanning;Pre-compromise;5
+440;Enterprise;Internal Proxy;Network Intrusion Prevention;8
+441;Enterprise;Windows Command Shell;Execution Prevention;6
+442;Enterprise;Disable Windows Event Logging;Restrict File and Directory Permissions;6
+443;Enterprise;Exploitation of Remote Services;Threat Intelligence Program;8
+444;Enterprise;Patch System Image;Password Policies;7
+445;Enterprise;Spearphishing Attachment;User Training;8
+446;Enterprise;Serverless;Pre-compromise;5
+447;Enterprise;Automated Collection;Remote Data Storage;6
+448;Enterprise;SNMP (MIB Dump);Network Intrusion Prevention;8
+449;Enterprise;System Binary Proxy Execution;Disable or Remove Feature or Program;6
+450;Enterprise;Junk Data;Network Intrusion Prevention;8
+451;Enterprise;AS-REP Roasting;Audit;6
+452;Enterprise;Python;Execution Prevention;6
+453;Enterprise;Account Manipulation;Multi-factor Authentication;8
+454;Enterprise;Exploitation of Remote Services;Network Segmentation;8
+455;Enterprise;Impair Command History Logging;Operating System Configuration;7
+456;Enterprise;Identify Business Tempo;Pre-compromise;5
+457;Enterprise;Security Account Manager;Operating System Configuration;7
+458;Enterprise;Abuse Elevation Control Mechanism;Restrict File and Directory Permissions;6
+459;Enterprise;OS Credential Dumping;Password Policies;7
+460;Enterprise;WHOIS;Pre-compromise;5
+461;Enterprise;Compromise Hardware Supply Chain;Boot Integrity;6
+462;Enterprise;Exploit Public-Facing Application;Exploit Protection;6
+463;Enterprise;Password Spraying;Multi-factor Authentication;8
+464;Enterprise;Phishing;Network Intrusion Prevention;8
+465;Enterprise;Pass the Ticket;User Account Management;8
+466;Enterprise;Unsecured Credentials;Operating System Configuration;7
+467;Enterprise;Disable Cloud Logs;User Account Management;8
+468;Enterprise;SIP and Trust Provider Hijacking;Restrict Registry Permissions;5
+469;Enterprise;Application Access Token;Restrict Web-Based Content;5
+470;Enterprise;Compromise Accounts;Pre-compromise;5
+471;Enterprise;OS Credential Dumping;User Training;8
+472;Enterprise;Visual Basic;Disable or Remove Feature or Program;6
+473;Enterprise;Domain Controller Authentication;Multi-factor Authentication;8
+474;Enterprise;Scheduled Task/Job;User Account Management;8
+475;Enterprise;Keychain;Password Policies;7
+476;Enterprise;Code Repositories;Multi-factor Authentication;8
+477;Enterprise;Scheduled Transfer;Network Intrusion Prevention;8
+478;Enterprise;Cloud Account;User Account Management;8
+479;Enterprise;Verclsid;Execution Prevention;6
+480;Enterprise;Credential Stuffing;Multi-factor Authentication;8
+481;Enterprise;Exploitation for Privilege Escalation;Exploit Protection;6
+482;Enterprise;Gather Victim Identity Information;Pre-compromise;5
+483;Enterprise;Spearphishing Attachment;Software Configuration;8
+484;Enterprise;Web Service;Network Intrusion Prevention;8
+485;Enterprise;Access Token Manipulation;User Account Management;8
+486;Enterprise;Dead Drop Resolver;Restrict Web-Based Content;5
+487;Enterprise;SSH Authorized Keys;Restrict File and Directory Permissions;6
+488;Enterprise;Non-Standard Encoding;Network Intrusion Prevention;8
+489;Enterprise;Control Panel;Restrict File and Directory Permissions;6
+490;Enterprise;Exploitation for Client Execution;Application Isolation and Sandboxing;5
+491;Enterprise;At;Audit;6
+492;Enterprise;Windows Management Instrumentation;Behavior Prevention on Endpoint;5
+493;Enterprise;TFTP Boot;Audit;6
+494;Enterprise;Install Root Certificate;Software Configuration;8
+495;Enterprise;Password Spraying;Password Policies;7
+496;Enterprise;Disable or Modify System Firewall;Audit;6
+497;Enterprise;SMB/Windows Admin Shares;Privileged Account Management;6
+498;Enterprise;Transfer Data to Cloud Account;Filter Network Traffic;7
+499;Enterprise;Data from Information Repositories;Audit;6
+500;Enterprise;LSASS Memory;Password Policies;7
+501;Enterprise;Kernel Modules and Extensions;User Account Management;8
+502;Enterprise;Application Shimming;User Account Control;8
+503;Enterprise;Accessibility Features;Operating System Configuration;7
+504;Enterprise;Windows Service;Operating System Configuration;7
+505;Enterprise;Determine Physical Locations;Pre-compromise;5
+506;Enterprise;Exploitation of Remote Services;Vulnerability Scanning;8
+507;Enterprise;Search Open Websites/Domains;Application Developer Guidance;5
+508;Enterprise;Modify System Image;Boot Integrity;6
+509;Enterprise;Pass the Hash;Update Software;8
+510;Enterprise;At;User Account Management;8
+511;Enterprise;AppleScript;Code Signing;5
+512;Enterprise;Network Service Discovery;Network Intrusion Prevention;8
+513;Enterprise;Launch Daemon;User Account Management;8
+514;Enterprise;Exfiltration to Text Storage Sites;Restrict Web-Based Content;5
+515;Enterprise;Cloud Accounts;Password Policies;7
+516;Enterprise;Cloud Services;Multi-factor Authentication;8
+517;Enterprise;Transmitted Data Manipulation;Encrypt Sensitive Information;5
+518;Enterprise;Template Injection;Antivirus/Antimalware;5
+519;Enterprise;Container Administration Command;Privileged Account Management;6
+520;Enterprise;DNS Server;Pre-compromise;5
+521;Enterprise;Hijack Execution Flow;Audit;6
+522;Enterprise;Escape to Host;Execution Prevention;6
+523;Enterprise;Unsecured Credentials;Limit Access to Resource Over Network;6
+524;Enterprise;Clear Linux or Mac System Logs;Remote Data Storage;6
+525;Enterprise;Local Accounts;Privileged Account Management;6
+526;Enterprise;Domains;Pre-compromise;5
+527;Enterprise;Outlook Home Page;Behavior Prevention on Endpoint;5
+528;Enterprise;Safe Mode Boot;Software Configuration;8
+529;Enterprise;Match Legitimate Name or Location;Execution Prevention;6
+530;Enterprise;PowerShell;Antivirus/Antimalware;5
+531;Enterprise;Cloud Instance Metadata API;Limit Access to Resource Over Network;6
+532;Enterprise;DNS Server;Pre-compromise;5
+533;Enterprise;Confluence;User Training;8
+534;Enterprise;Dylib Hijacking;Restrict File and Directory Permissions;6
+535;Enterprise;Regsvr32;Exploit Protection;6
+536;Enterprise;Clear Persistence;Restrict File and Directory Permissions;6
+537;Enterprise;SIP and Trust Provider Hijacking;Restrict File and Directory Permissions;6
+538;Enterprise;Service Execution;Privileged Account Management;6
+539;Enterprise;Malicious Link;User Training;8
+540;Enterprise;Remote Service Session Hijacking;User Account Management;8
+541;Enterprise;JavaScript;Restrict Web-Based Content;5
+542;Enterprise;Remote Desktop Protocol;Network Segmentation;8
+543;Enterprise;Spearphishing Link;Audit;6
+544;Enterprise;Obfuscated Files or Information;Antivirus/Antimalware;5
+545;Enterprise;Network Device Configuration Dump;Software Configuration;8
+546;Enterprise;Server Software Component;Disable or Remove Feature or Program;6
+547;Enterprise;Container API;User Account Management;8
+548;Enterprise;Steal or Forge Authentication Certificates;Audit;6
+549;Enterprise;Odbcconf;Execution Prevention;6
+550;Enterprise;BITS Jobs;Filter Network Traffic;7
+551;Enterprise;Container Orchestration Job;Privileged Account Management;6
+552;Enterprise;Network Logon Script;Restrict File and Directory Permissions;6
+553;Enterprise;Modify System Image;Code Signing;5
+554;Enterprise;Exploitation for Defense Evasion;Exploit Protection;6
+555;Enterprise;Inhibit System Recovery;Operating System Configuration;7
+556;Enterprise;Virtual Private Server;Pre-compromise;5
+557;Enterprise;Component Firmware;Update Software;8
+558;Enterprise;Path Interception by Unquoted Path;Execution Prevention;6
+559;Enterprise;Domain Accounts;Privileged Account Management;6
+560;Enterprise;Bypass User Account Control;User Account Control;8
+561;Enterprise;Indicator Removal;Remote Data Storage;6
+562;Enterprise;LSASS Memory;Credential Access Protection;5
+563;Enterprise;Multi-Factor Authentication Interception;User Training;8
+564;Enterprise;Service Execution;Behavior Prevention on Endpoint;5
+565;Enterprise;Non-Standard Port;Network Intrusion Prevention;8
+566;Enterprise;Upload Malware;Pre-compromise;5
+567;Enterprise;Escape to Host;Privileged Account Management;6
+568;Enterprise;Code Signing Certificates;Pre-compromise;5
+569;Enterprise;Network Device Authentication;Privileged Account Management;6
+570;Enterprise;Systemd Timers;Restrict File and Directory Permissions;6
+571;Enterprise;Reflection Amplification;Filter Network Traffic;7
+572;Enterprise;Environmental Keying;Do Not Mitigate;5
+573;Enterprise;LSA Secrets;Privileged Account Management;6
+574;Enterprise;Disable or Modify Cloud Firewall;Audit;6
+575;Enterprise;Subvert Trust Controls;Restrict Registry Permissions;5
+576;Enterprise;AppCert DLLs;Execution Prevention;6
+577;Enterprise;Scheduled Task;Operating System Configuration;7
+578;Enterprise;Spearphishing Link;Software Configuration;8
+579;Enterprise;Scheduled Task/Job;Audit;6
+580;Enterprise;Portable Executable Injection;Behavior Prevention on Endpoint;5
+581;Enterprise;Valid Accounts;Application Developer Guidance;5
+582;Enterprise;Embedded Payloads;Antivirus/Antimalware;5
+583;Enterprise;Template Injection;User Training;8
+584;Enterprise;Forge Web Credentials;Audit;6
+585;Enterprise;Trusted Relationship;Network Segmentation;8
+586;Enterprise;System Script Proxy Execution;Execution Prevention;6
+587;Enterprise;Domain Trust Modification;Privileged Account Management;6
+588;Enterprise;Abuse Elevation Control Mechanism;Operating System Configuration;7
+589;Enterprise;Transfer Data to Cloud Account;User Account Management;8
+590;Enterprise;Exfiltration Over Asymmetric Encrypted Non-C2 Protocol;Network Segmentation;8
+591;Enterprise;Exploits;Pre-compromise;5
+592;Enterprise;Windows Service;User Account Management;8
+593;Enterprise;Exfiltration Over C2 Channel;Data Loss Prevention;5
+594;Enterprise;Cloud Storage Object Discovery;User Account Management;8
+595;Enterprise;XSL Script Processing;Execution Prevention;6
+596;Enterprise;Steal or Forge Authentication Certificates;Encrypt Sensitive Information;5
+597;Enterprise;Obtain Capabilities;Pre-compromise;5
+598;Enterprise;Network Sniffing;Encrypt Sensitive Information;5
+599;Enterprise;Terminal Services DLL;Restrict Registry Permissions;5
+600;Enterprise;External Defacement;Data Backup;6
+601;Enterprise;RDP Hijacking;Operating System Configuration;7
+602;Enterprise;Network Provider DLL;Audit;6
+603;Enterprise;Container Administration Command;User Account Management;8
+604;Enterprise;Data from Removable Media;Data Loss Prevention;5
+605;Enterprise;PowerShell;Disable or Remove Feature or Program;6
+606;Enterprise;AS-REP Roasting;Password Policies;7
+607;Enterprise;Modify Authentication Process;Audit;6
+608;Enterprise;Kernel Modules and Extensions;Antivirus/Antimalware;5
+609;Enterprise;Windows Remote Management;Network Segmentation;8
+610;Enterprise;Regsvcs/Regasm;Execution Prevention;6
+611;Enterprise;Network Boundary Bridging;Multi-factor Authentication;8
+612;Enterprise;SAML Tokens;Active Directory Configuration;5
+613;Enterprise;Compromise Software Dependencies and Development Tools;Update Software;8
+614;Enterprise;BITS Jobs;Operating System Configuration;7
+615;Enterprise;Exfiltration Over Alternative Protocol;User Account Management;8
+616;Enterprise;Network Device Configuration Dump;Encrypt Sensitive Information;5
+617;Enterprise;SSH Authorized Keys;User Account Management;8
+618;Enterprise;Exploit Public-Facing Application;Privileged Account Management;6
+619;Enterprise;Build Image on Host;Network Segmentation;8
+620;Enterprise;Code Repositories;User Account Management;8
+621;Enterprise;Linux and Mac File and Directory Permissions Modification;Privileged Account Management;6
+622;Enterprise;Symmetric Cryptography;Network Intrusion Prevention;8
+623;Enterprise;PowerShell;Privileged Account Management;6
+624;Enterprise;Steal or Forge Kerberos Tickets;Privileged Account Management;6
+625;Enterprise;Valid Accounts;Account Use Policies;5
+626;Enterprise;Private Keys;Restrict File and Directory Permissions;6
+627;Enterprise;SNMP (MIB Dump);Encrypt Sensitive Information;5
+628;Enterprise;Brute Force;Account Use Policies;5
+629;Enterprise;Pre-OS Boot;Update Software;8
+630;Enterprise;PowerShell;Code Signing;5
+631;Enterprise;Exfiltration Over Other Network Medium;Operating System Configuration;7
+632;Enterprise;Disable or Modify Tools;Restrict Registry Permissions;5
+633;Enterprise;Encrypted Channel;SSL/TLS Inspection;8
+634;Enterprise;Clear Mailbox Data;Remote Data Storage;6
+635;Enterprise;XDG Autostart Entries;Limit Software Installation;5
+636;Enterprise;Valid Accounts;User Training;8
+637;Enterprise;SSH;User Account Management;8
+638;Enterprise;DHCP Spoofing;Network Intrusion Prevention;8
+639;Enterprise;Add-ins;Behavior Prevention on Endpoint;5
+640;Enterprise;Remote Desktop Protocol;Limit Access to Resource Over Network;6
+641;Enterprise;Remote Services;Multi-factor Authentication;8
+642;Enterprise;Software Deployment Tools;User Training;8
+643;Enterprise;Systemd Service;Restrict File and Directory Permissions;6
+644;Enterprise;Network Service Discovery;Disable or Remove Feature or Program;6
+645;Enterprise;Unsecured Credentials;Restrict File and Directory Permissions;6
+646;Enterprise;Create or Modify System Process;Code Signing;5
+647;Enterprise;Clear Windows Event Logs;Encrypt Sensitive Information;5
+648;Enterprise;Impair Defenses;User Account Management;8
+649;Enterprise;DNS/Passive DNS;Pre-compromise;5
+650;Enterprise;Phishing;Software Configuration;8
+651;Enterprise;Abuse Elevation Control Mechanism;Privileged Account Management;6
+652;Enterprise;Identify Roles;Pre-compromise;5
+653;Enterprise;Container API;Privileged Account Management;6
+654;Enterprise;SQL Stored Procedures;Privileged Account Management;6
+655;Enterprise;ARP Cache Poisoning;Disable or Remove Feature or Program;6
+656;Enterprise;Spearphishing Attachment;Antivirus/Antimalware;5
+657;Enterprise;Exfiltration Over Web Service;Data Loss Prevention;5
+658;Enterprise;Modify Registry;Restrict Registry Permissions;5
+659;Enterprise;Data from Cloud Storage;User Account Management;8
+660;Enterprise;Network Device CLI;Privileged Account Management;6
+661;Enterprise;Network Provider DLL;Restrict Registry Permissions;5
+662;Enterprise;Supply Chain Compromise;Update Software;8
+663;Enterprise;Patch System Image;Code Signing;5
+664;Enterprise;Cached Domain Credentials;Password Policies;7
+665;Enterprise;Exploit Public-Facing Application;Application Isolation and Sandboxing;5
+666;Enterprise;Steal or Forge Kerberos Tickets;Password Policies;7
+667;Enterprise;Domain Policy Modification;Audit;6
+668;Enterprise;Windows Credential Manager;Disable or Remove Feature or Program;6
+669;Enterprise;Group Policy Modification;Audit;6
+670;Enterprise;Downgrade System Image;Privileged Account Management;6
+671;Enterprise;Dynamic Data Exchange;Software Configuration;8
+672;Enterprise;Implant Internal Image;Privileged Account Management;6
+673;Enterprise;Clear Command History;Remote Data Storage;6
+674;Enterprise;Security Account Manager;User Training;8
+675;Enterprise;Service Stop;User Account Management;8
+676;Enterprise;Network Device Configuration Dump;Network Intrusion Prevention;8
+677;Enterprise;Drive-by Compromise;Exploit Protection;6
+678;Enterprise;Implant Internal Image;Code Signing;5
+679;Enterprise;System Binary Proxy Execution;Exploit Protection;6
+680;Enterprise;Launch Daemon;Audit;6
+681;Enterprise;Distributed Component Object Model;Network Segmentation;8
+682;Enterprise;Transport Agent;Audit;6
+683;Enterprise;Component Object Model;Privileged Account Management;6
+684;Enterprise;Shortcut Modification;User Account Management;8
+685;Enterprise;DCSync;Privileged Account Management;6
+686;Enterprise;Spearphishing Attachment;Network Intrusion Prevention;8
+687;Enterprise;Email Forwarding Rule;Disable or Remove Feature or Program;6
+688;Enterprise;Exploitation for Defense Evasion;Threat Intelligence Program;8
+689;Enterprise;Scheduled Task/Job;Operating System Configuration;7
+690;Enterprise;Services File Permissions Weakness;User Account Management;8
+691;Enterprise;Local Accounts;Password Policies;7
+692;Enterprise;Code Signing Policy Modification;Privileged Account Management;6
+693;Enterprise;Browser Session Hijacking;User Training;8
+694;Enterprise;SMB/Windows Admin Shares;Limit Access to Resource Over Network;6
+695;Enterprise;Firmware Corruption;Privileged Account Management;6
+696;Enterprise;Bypass User Account Control;Privileged Account Management;6
+697;Enterprise;Modify Authentication Process;Password Policies;7
+698;Enterprise;Thread Local Storage;Behavior Prevention on Endpoint;5
+699;Enterprise;Network Boundary Bridging;Privileged Account Management;6
+700;Enterprise;Create Cloud Instance;User Account Management;8
+701;Enterprise;System Binary Proxy Execution;Privileged Account Management;6
+702;Enterprise;Process Doppelgänging;Behavior Prevention on Endpoint;5
+703;Enterprise;Embedded Payloads;Behavior Prevention on Endpoint;5
+704;Enterprise;Social Media Accounts;Pre-compromise;5
+705;Enterprise;Unix Shell Configuration Modification;Restrict File and Directory Permissions;6
+706;Enterprise;Downgrade System Image;Password Policies;7
+707;Enterprise;Data from Configuration Repository;Encrypt Sensitive Information;5
+708;Enterprise;ARP Cache Poisoning;Encrypt Sensitive Information;5
+709;Enterprise;Spearphishing Link;User Training;8
+710;Enterprise;Exfiltration Over Symmetric Encrypted Non-C2 Protocol;Filter Network Traffic;7
+711;Enterprise;Social Media;Pre-compromise;5
+712;Enterprise;Credential Stuffing;Account Use Policies;5
+713;Enterprise;DLL Side-Loading;Application Developer Guidance;5
+714;Enterprise;PubPrn;Behavior Prevention on Endpoint;5
+715;Enterprise;Cloud Account;Privileged Account Management;6
+716;Enterprise;Hybrid Identity;Audit;6
+717;Enterprise;VBA Stomping;Disable or Remove Feature or Program;6
+718;Enterprise;PowerShell;Execution Prevention;6
+719;Enterprise;Tool;Pre-compromise;5
+720;Enterprise;Distributed Component Object Model;Privileged Account Management;6
+721;Enterprise;RDP Hijacking;Privileged Account Management;6
+722;Enterprise;Launch Agent;Restrict File and Directory Permissions;6
+723;Enterprise;Compiled HTML File;Restrict Web-Based Content;5
+724;Enterprise;Safe Mode Boot;Privileged Account Management;6
+725;Enterprise;Masquerading;Code Signing;5
+726;Enterprise;Domain Generation Algorithms;Restrict Web-Based Content;5
+727;Enterprise;Windows Management Instrumentation;Privileged Account Management;6
+728;Enterprise;Downgrade System Image;Code Signing;5
+729;Enterprise;Active Scanning;Pre-compromise;5
+730;Enterprise;Process Injection;Behavior Prevention on Endpoint;5
+731;Enterprise;Domain Policy Modification;Privileged Account Management;6
+732;Enterprise;System Services;Restrict File and Directory Permissions;6
+733;Enterprise;System Services;Behavior Prevention on Endpoint;5
+734;Enterprise;Create or Modify System Process;User Account Management;8
+735;Enterprise;Confluence;User Account Management;8
+736;Enterprise;Exploitation for Credential Access;Application Isolation and Sandboxing;5
+737;Enterprise;Windows File and Directory Permissions Modification;Privileged Account Management;6
+738;Enterprise;Windows Remote Management;Disable or Remove Feature or Program;6
+739;Enterprise;Steal Application Access Token;User Training;8
+740;Enterprise;Forced Authentication;Password Policies;7
+741;Enterprise;Deploy Container;Audit;6
+742;Enterprise;Exfiltration Over Alternative Protocol;Data Loss Prevention;5
+743;Enterprise;Downgrade Attack;Disable or Remove Feature or Program;6
+744;Enterprise;IIS Components;Privileged Account Management;6
+745;Enterprise;Cloud Accounts;Pre-compromise;5
+746;Enterprise;Data from Cloud Storage;Audit;6
+747;Enterprise;Dynamic Linker Hijacking;Execution Prevention;6
+748;Enterprise;Server Software Component;Audit;6
+749;Enterprise;Create or Modify System Process;Behavior Prevention on Endpoint;5
+750;Enterprise;Domain Controller Authentication;Privileged Process Integrity;5
+751;Enterprise;System Binary Proxy Execution;Execution Prevention;6
+752;Enterprise;Outlook Home Page;Update Software;8
+753;Enterprise;Exfiltration Over Alternative Protocol;Restrict File and Directory Permissions;6
+754;Enterprise;Confluence;Audit;6
+755;Enterprise;Compromise Software Supply Chain;Vulnerability Scanning;8
+756;Enterprise;AppleScript;Execution Prevention;6
+757;Enterprise;OS Exhaustion Flood;Filter Network Traffic;7
+758;Enterprise;AppInit DLLs;Execution Prevention;6
+759;Enterprise;Use Alternate Authentication Material;User Account Management;8
+760;Enterprise;LLMNR/NBT-NS Poisoning and SMB Relay;Filter Network Traffic;7
+761;Enterprise;Remote Desktop Protocol;Operating System Configuration;7
+762;Enterprise;Domain Generation Algorithms;Network Intrusion Prevention;8
+763;Enterprise;Visual Basic;Behavior Prevention on Endpoint;5
+764;Enterprise;Taint Shared Content;Restrict File and Directory Permissions;6
+765;Enterprise;Spearphishing Attachment;Software Configuration;8
+766;Enterprise;Accessibility Features;Limit Access to Resource Over Network;6
+767;Enterprise;Supply Chain Compromise;Vulnerability Scanning;8
+768;Enterprise;Command and Scripting Interpreter;Privileged Account Management;6
+769;Enterprise;Runtime Data Manipulation;Network Segmentation;8
+770;Enterprise;Office Template Macros;Behavior Prevention on Endpoint;5
+771;Enterprise;Process Hollowing;Behavior Prevention on Endpoint;5
+772;Enterprise;Software;Pre-compromise;5
+773;Enterprise;Additional Cloud Roles;User Account Management;8
+774;Enterprise;Outlook Rules;Behavior Prevention on Endpoint;5
+775;Enterprise;Deploy Container;Limit Access to Resource Over Network;6
+776;Enterprise;Account Manipulation;Privileged Account Management;6
+777;Enterprise;LC_LOAD_DYLIB Addition;Code Signing;5
+778;Enterprise;Vulnerability Scanning;Pre-compromise;5
+779;Enterprise;Python;Limit Software Installation;5
+780;Enterprise;ROMMONkit;Network Intrusion Prevention;8
+781;Enterprise;Steal or Forge Authentication Certificates;Disable or Remove Feature or Program;6
+782;Enterprise;Exfiltration Over Symmetric Encrypted Non-C2 Protocol;Network Intrusion Prevention;8
+783;Enterprise;Launchctl;User Account Management;8
+784;Enterprise;Code Signing Certificates;Pre-compromise;5
+785;Enterprise;System Firmware;Boot Integrity;6
+786;Enterprise;Drive-by Target;Pre-compromise;5
+787;Enterprise;DCSync;Password Policies;7
+788;Enterprise;Firmware Corruption;Boot Integrity;6
+789;Enterprise;Create Account;Operating System Configuration;7
+790;Enterprise;Private Keys;Password Policies;7
+791;Enterprise;Multi-hop Proxy;Filter Network Traffic;7
+792;Enterprise;Modify System Image;Password Policies;7
+793;Enterprise;Re-opened Applications;User Training;8
+794;Enterprise;SNMP (MIB Dump);Update Software;8
+795;Enterprise;TFTP Boot;Network Intrusion Prevention;8
+796;Enterprise;Install Root Certificate;Operating System Configuration;7
+797;Enterprise;Cloud API;Privileged Account Management;6
+798;Enterprise;Exploit Public-Facing Application;Network Segmentation;8
+799;Enterprise;SSH Hijacking;Privileged Account Management;6
+800;Enterprise;Network Denial of Service;Filter Network Traffic;7
+801;Enterprise;Cloud Instance Metadata API;Filter Network Traffic;7
+802;Enterprise;Fallback Channels;Network Intrusion Prevention;8
+803;Enterprise;Account Manipulation;Operating System Configuration;7
+804;Enterprise;TFTP Boot;Boot Integrity;6
+805;Enterprise;Email Accounts;Pre-compromise;5
+806;Enterprise;Compiled HTML File;Execution Prevention;6
+807;Enterprise;Web Protocols;Network Intrusion Prevention;8
+808;Enterprise;Data Manipulation;Remote Data Storage;6
+809;Enterprise;Software Deployment Tools;Remote Data Storage;6
+810;Enterprise;Disable or Modify System Firewall;Restrict Registry Permissions;5
+811;Enterprise;Verclsid;Disable or Remove Feature or Program;6
+812;Enterprise;Email Addresses;Pre-compromise;5
+813;Enterprise;JavaScript;Disable or Remove Feature or Program;6
+814;Enterprise;Container API;Network Segmentation;8
+815;Enterprise;Invalid Code Signature;Code Signing;5
+816;Enterprise;Pass the Hash;User Account Management;8
+817;Enterprise;AS-REP Roasting;Encrypt Sensitive Information;5
+818;Enterprise;SNMP (MIB Dump);Network Segmentation;8
+819;Enterprise;Domain Trust Discovery;Network Segmentation;8
+820;Enterprise;Outlook Forms;Update Software;8
+821;Enterprise;Dynamic Resolution;Restrict Web-Based Content;5
+822;Enterprise;Hidden Window;Execution Prevention;6
+823;Enterprise;Container Administration Command;Limit Access to Resource Over Network;6
+824;Enterprise;COR_PROFILER;Execution Prevention;6
+825;Enterprise;Business Relationships;Pre-compromise;5
+826;Enterprise;Disable or Modify Tools;User Account Management;8
+827;Enterprise;Modify System Image;Credential Access Protection;5
+828;Enterprise;Web Shell;User Account Management;8
+829;Enterprise;Client Configurations;Pre-compromise;5
+830;Enterprise;Email Collection;Audit;6
+831;Enterprise;Exploitation for Privilege Escalation;Update Software;8
+832;Enterprise;Use Alternate Authentication Material;Privileged Account Management;6
+833;Enterprise;Office Test;Behavior Prevention on Endpoint;5
+834;Enterprise;Exploitation of Remote Services;Privileged Account Management;6
+835;Enterprise;Unsecured Credentials;Filter Network Traffic;7
+836;Enterprise;Pre-OS Boot;Boot Integrity;6
+837;Enterprise;Golden Ticket;Privileged Account Management;6
+838;Enterprise;Multi-Stage Channels;Network Intrusion Prevention;8
+839;Enterprise;Adversary-in-the-Middle;Limit Access to Resource Over Network;6
+840;Enterprise;Ptrace System Calls;Behavior Prevention on Endpoint;5
+841;Enterprise;Clear Command History;Environment Variable Permissions;5
+842;Enterprise;Serverless Execution;User Account Management;8
+843;Enterprise;Sudo and Sudo Caching;Restrict File and Directory Permissions;6
+844;Enterprise;Data from Cloud Storage;Filter Network Traffic;7
+845;Enterprise;Path Interception by Search Order Hijacking;Audit;6
+846;Enterprise;Elevated Execution with Prompt;Execution Prevention;6
+847;Enterprise;Additional Cloud Roles;Multi-factor Authentication;8
+848;Enterprise;Security Account Manager;Password Policies;7
+849;Enterprise;Account Discovery;Operating System Configuration;7
+850;Enterprise;DLL Search Order Hijacking;Execution Prevention;6
+851;Enterprise;Credentials in Registry;Audit;6
+852;Enterprise;Domain Properties;Pre-compromise;5
+853;Enterprise;Pluggable Authentication Modules;Privileged Account Management;6
+854;Enterprise;Cloud Services;Privileged Account Management;6
+855;Enterprise;Unsecured Credentials;Privileged Account Management;6
+856;Enterprise;IIS Components;Code Signing;5
+857;Enterprise;Phishing for Information;User Training;8
+858;Enterprise;Cloud Accounts;User Account Management;8
+859;Enterprise;Transport Agent;Privileged Account Management;6
+860;Enterprise;Exploitation for Privilege Escalation;Application Isolation and Sandboxing;5
+861;Enterprise;PubPrn;Execution Prevention;6
+862;Enterprise;TFTP Boot;Privileged Account Management;6
+863;Enterprise;Exfiltration Over Asymmetric Encrypted Non-C2 Protocol;Network Intrusion Prevention;8
+864;Enterprise;MSBuild;Disable or Remove Feature or Program;6
+865;Enterprise;SAML Tokens;Audit;6
+866;Enterprise;Remote Desktop Protocol;User Account Management;8
+867;Enterprise;DLL Search Order Hijacking;Restrict Library Loading;6
+868;Enterprise;Replication Through Removable Media;Limit Hardware Installation;8
+869;Enterprise;Authentication Package;Privileged Process Integrity;5
+870;Enterprise;Taint Shared Content;Exploit Protection;6
+871;Enterprise;Pass the Hash;Privileged Account Management;6
+872;Enterprise;Windows Service;Audit;6
+873;Enterprise;Network Sniffing;User Account Management;8
+874;Enterprise;Exfiltration Over Unencrypted Non-C2 Protocol;Filter Network Traffic;7
+875;Enterprise;Hybrid Identity;Privileged Account Management;6
+876;Enterprise;Office Application Startup;Behavior Prevention on Endpoint;5
+877;Enterprise;IIS Components;Audit;6
+878;Enterprise;Ptrace System Calls;Privileged Account Management;6
+879;Enterprise;SSH Hijacking;Password Policies;7
+880;Enterprise;Steal Web Session Cookie;Software Configuration;8
+881;Enterprise;Group Policy Preferences;Active Directory Configuration;5
+882;Enterprise;Exfiltration Over Alternative Protocol;Filter Network Traffic;7
+883;Enterprise;Password Cracking;Password Policies;7
+884;Enterprise;Network Device CLI;Execution Prevention;6
+885;Enterprise;Application Exhaustion Flood;Filter Network Traffic;7
+886;Enterprise;Mshta;Execution Prevention;6
+887;Enterprise;Communication Through Removable Media;Operating System Configuration;7
+888;Enterprise;Clear Network Connection History and Configurations;Remote Data Storage;6
+889;Enterprise;Boot or Logon Initialization Scripts;Restrict File and Directory Permissions;6
+890;Enterprise;RDP Hijacking;User Account Management;8
+891;Enterprise;Executable Installer File Permissions Weakness;User Account Management;8
+892;Enterprise;Create or Modify System Process;Limit Software Installation;5
+893;Enterprise;Spearphishing via Service;Restrict Web-Based Content;5
+894;Enterprise;Exfiltration Over C2 Channel;Network Intrusion Prevention;8
+895;Enterprise;Threat Intel Vendors;Pre-compromise;5
+896;Enterprise;Clear Linux or Mac System Logs;Restrict File and Directory Permissions;6
+897;Enterprise;Software Deployment Tools;Active Directory Configuration;5
+898;Enterprise;SAML Tokens;Privileged Account Management;6
+899;Enterprise;Cloud Administration Command;Privileged Account Management;6
+900;Enterprise;File and Directory Permissions Modification;Restrict File and Directory Permissions;6
+901;Enterprise;Path Interception by PATH Environment Variable;Execution Prevention;6
+902;Enterprise;Transport Agent;Code Signing;5
+903;Enterprise;Container and Resource Discovery;Network Segmentation;8
+904;Enterprise;Password Guessing;Update Software;8
+905;Enterprise;Steal or Forge Authentication Certificates;Active Directory Configuration;5
+906;Enterprise;Exploitation of Remote Services;Update Software;8
+907;Enterprise;RDP Hijacking;Audit;6
+908;Enterprise;SQL Stored Procedures;Audit;6
+909;Enterprise;Credentials In Files;Password Policies;7
+910;Enterprise;Dynamic-link Library Injection;Behavior Prevention on Endpoint;5
+911;Enterprise;RC Scripts;Restrict File and Directory Permissions;6
+912;Enterprise;Disable Windows Event Logging;Restrict Registry Permissions;5
+913;Enterprise;Kerberoasting;Privileged Account Management;6
+914;Enterprise;Service Execution;Restrict File and Directory Permissions;6
+915;Enterprise;Service Stop;Restrict File and Directory Permissions;6
+916;Enterprise;Bidirectional Communication;Restrict Web-Based Content;5
+917;Enterprise;Web Shell;Disable or Remove Feature or Program;6
+918;Enterprise;VNC;Filter Network Traffic;7
+919;Enterprise;Exploitation of Remote Services;Exploit Protection;6
+920;Enterprise;Lateral Tool Transfer;Network Intrusion Prevention;8
+921;Enterprise;File and Directory Permissions Modification;Privileged Account Management;6
+922;Enterprise;Modify Authentication Process;Operating System Configuration;7
+923;Enterprise;Account Manipulation;User Account Management;8
+924;Enterprise;Create or Modify System Process;Operating System Configuration;7
+925;Enterprise;Delete Cloud Instance;User Account Management;8
+926;Enterprise;Remote Email Collection;Encrypt Sensitive Information;5
+927;Enterprise;Indicator Blocking;Software Configuration;8
+928;Enterprise;Service Exhaustion Flood;Filter Network Traffic;7
+929;Enterprise;LSASS Memory;Operating System Configuration;7
+930;Enterprise;Exploitation for Defense Evasion;Update Software;8
+931;Enterprise;LSASS Driver;Privileged Process Integrity;5
+932;Enterprise;InstallUtil;Execution Prevention;6
+933;Enterprise;Subvert Trust Controls;Operating System Configuration;7
+934;Enterprise;Domain Accounts;User Training;8
+935;Enterprise;Software Deployment Tools;Password Policies;7
+936;Enterprise;Impair Defenses;Audit;6
+937;Enterprise;Data from Cloud Storage;Encrypt Sensitive Information;5
+938;Enterprise;Remote Desktop Protocol;Multi-factor Authentication;8
+939;Enterprise;Template Injection;Network Intrusion Prevention;8
+940;Enterprise;Network Device Authentication;Multi-factor Authentication;8
+941;Enterprise;Clear Network Connection History and Configurations;Restrict Registry Permissions;5
+942;Enterprise;Hijack Execution Flow;User Account Control;8
+943;Enterprise;Botnet;Pre-compromise;5
+944;Enterprise;Accessibility Features;Execution Prevention;6
+945;Enterprise;Exfiltration over USB;Disable or Remove Feature or Program;6
+946;Enterprise;Credentials In Files;Restrict File and Directory Permissions;6
+947;Enterprise;Spearphishing Link;Restrict Web-Based Content;5
+948;Enterprise;Server Software Component;Restrict Registry Permissions;5
+949;Enterprise;Protocol Tunneling;Filter Network Traffic;7
+950;Enterprise;Runtime Data Manipulation;Restrict File and Directory Permissions;6
+951;Enterprise;One-Way Communication;Network Intrusion Prevention;8
+952;Enterprise;Office Template Macros;Disable or Remove Feature or Program;6
+953;Enterprise;Compromise Infrastructure;Pre-compromise;5
+954;Enterprise;IIS Components;Execution Prevention;6
+955;Enterprise;Winlogon Helper DLL;User Account Management;8
+956;Enterprise;Lateral Tool Transfer;Filter Network Traffic;7
+957;Enterprise;Bidirectional Communication;Network Intrusion Prevention;8
+958;Enterprise;LLMNR/NBT-NS Poisoning and SMB Relay;Network Segmentation;8
+959;Enterprise;Spearphishing Attachment;User Training;8
+960;Enterprise;Inter-Process Communication;Application Isolation and Sandboxing;5
+961;Enterprise;Hijack Execution Flow;Update Software;8
+962;Enterprise;Exploitation for Credential Access;Exploit Protection;6
+963;Enterprise;Patch System Image;Privileged Account Management;6
+964;Enterprise;Modify Cloud Compute Infrastructure;Audit;6
+965;Enterprise;Create Process with Token;Privileged Account Management;6
+966;Enterprise;Run Virtual Instance;Disable or Remove Feature or Program;6
+967;Enterprise;Traffic Duplication;Encrypt Sensitive Information;5
+968;Enterprise;Windows File and Directory Permissions Modification;Restrict File and Directory Permissions;6
+969;Enterprise;Web Services;Pre-compromise;5
+970;Enterprise;Scheduled Task;User Account Management;8
+971;Enterprise;Executable Installer File Permissions Weakness;Audit;6
+972;Enterprise;Windows Service;Code Signing;5
+973;Enterprise;Abuse Elevation Control Mechanism;Audit;6
+974;Enterprise;Cloud Accounts;Pre-compromise;5
+975;Enterprise;Command and Scripting Interpreter;Execution Prevention;6
+976;Enterprise;Hidden Users;Operating System Configuration;7
+977;Enterprise;Exploitation for Credential Access;Threat Intelligence Program;8
+978;Enterprise;Bypass User Account Control;Audit;6
+979;Enterprise;Systemd Service;User Account Management;8
+980;Enterprise;Code Signing Policy Modification;Restrict Registry Permissions;5
+981;Enterprise;Credentials from Web Browsers;Password Policies;7
+982;Enterprise;Communication Through Removable Media;Disable or Remove Feature or Program;6
+983;Enterprise;Steal Application Access Token;Restrict Web-Based Content;5
+984;Enterprise;User Execution;Network Intrusion Prevention;8
+985;Enterprise;External Proxy;Network Intrusion Prevention;8
+986;Enterprise;Proc Filesystem;Privileged Account Management;6
+987;Enterprise;Search Open Technical Databases;Pre-compromise;5
+988;Enterprise;Terminal Services DLL;Audit;6
+989;Enterprise;Spearphishing via Service;Antivirus/Antimalware;5
+990;Enterprise;Direct Network Flood;Filter Network Traffic;7
+991;Enterprise;Distributed Component Object Model;Application Isolation and Sandboxing;5
+992;Enterprise;Golden Ticket;Active Directory Configuration;5
+993;Enterprise;Social Media Accounts;Pre-compromise;5
+994;Enterprise;Email Collection;Encrypt Sensitive Information;5
+995;Enterprise;Non-Application Layer Protocol;Filter Network Traffic;7
+996;Enterprise;Clear Mailbox Data;Audit;6
+997;Enterprise;COR_PROFILER;User Account Management;8
+998;Enterprise;Hijack Execution Flow;Restrict Library Loading;6
+999;Enterprise;Delete Cloud Instance;Audit;6
+1000;Enterprise;Escape to Host;Disable or Remove Feature or Program;6
+1001;Enterprise;Time Providers;Restrict Registry Permissions;5
+1002;Enterprise;Proxy;Filter Network Traffic;7
+1003;Enterprise;LC_LOAD_DYLIB Addition;Execution Prevention;6
+1004;Enterprise;Mshta;Disable or Remove Feature or Program;6
+1005;Enterprise;SMB/Windows Admin Shares;Password Policies;7
+1006;Enterprise;Data Transfer Size Limits;Network Intrusion Prevention;8
+1007;Enterprise;Data from Configuration Repository;Filter Network Traffic;7
+1008;Enterprise;Hijack Execution Flow;Execution Prevention;6
+1009;Enterprise;Scanning IP Blocks;Pre-compromise;5
+1010;Enterprise;SSH Hijacking;Restrict File and Directory Permissions;6
+1011;Enterprise;TFTP Boot;Limit Access to Resource Over Network;6
+1012;Enterprise;Cloud Accounts;Active Directory Configuration;5
+1013;Enterprise;Disable or Modify System Firewall;User Account Management;8
+1014;Enterprise;LSASS Driver;Credential Access Protection;5
+1015;Enterprise;Stored Data Manipulation;Remote Data Storage;6
+1016;Enterprise;Password Filter DLL;Operating System Configuration;7
+1017;Enterprise;External Remote Services;Limit Access to Resource Over Network;6
+1018;Enterprise;Office Application Startup;Software Configuration;8
+1019;Enterprise;Windows Management Instrumentation Event Subscription;User Account Management;8
+1020;Enterprise;Data Encrypted for Impact;Behavior Prevention on Endpoint;5
+1021;Enterprise;SSH;Multi-factor Authentication;8
+1022;Enterprise;Code Repositories;Application Developer Guidance;5
+1023;Enterprise;Bash History;Operating System Configuration;7
+1024;Enterprise;Valid Accounts;Active Directory Configuration;5
+1025;Enterprise;Domain Accounts;Multi-factor Authentication;8
+1026;Enterprise;Inhibit System Recovery;User Account Management;8
+1027;Enterprise;Data Encrypted for Impact;Data Backup;6
+1028;Enterprise;Exfiltration Over Physical Medium;Limit Hardware Installation;8
+1029;Enterprise;Command and Scripting Interpreter;Antivirus/Antimalware;5
+1030;Enterprise;PowerShell Profile;Code Signing;5
+1031;Enterprise;System Firmware;Privileged Account Management;6
+1032;Enterprise;Application Shimming;Update Software;8
+1033;Enterprise;Cached Domain Credentials;Operating System Configuration;7
+1034;Enterprise;Adversary-in-the-Middle;Network Intrusion Prevention;8
+1035;Enterprise;Password Cracking;Multi-factor Authentication;8
+1036;Enterprise;Modify Cloud Compute Infrastructure;User Account Management;8
+1037;Enterprise;Firmware;Pre-compromise;5
+1038;Enterprise;Adversary-in-the-Middle;Encrypt Sensitive Information;5
+1039;Enterprise;Private Keys;Audit;6
+1040;Enterprise;Additional Cloud Credentials;Network Segmentation;8
+1041;Enterprise;ROMMONkit;Boot Integrity;6
+1042;Enterprise;Bootkit;Privileged Account Management;6
+1043;Enterprise;Hybrid Identity;Multi-factor Authentication;8
+1044;Enterprise;Additional Cloud Roles;Privileged Account Management;6
+1045;Enterprise;Hardware Additions;Limit Access to Resource Over Network;6
+1046;Enterprise;LSASS Driver;Restrict Library Loading;6
+1047;Enterprise;Clear Mailbox Data;Restrict File and Directory Permissions;6
+1048;Enterprise;Purchase Technical Data;Pre-compromise;5
+1049;Enterprise;Exfiltration Over Symmetric Encrypted Non-C2 Protocol;Network Segmentation;8
+1050;Enterprise;Pass the Ticket;Active Directory Configuration;5
+1051;Enterprise;Develop Capabilities;Pre-compromise;5
+1052;Enterprise;Domain Account;Multi-factor Authentication;8
+1053;Enterprise;Malicious File;Execution Prevention;6
+1054;Enterprise;Steganography;Network Intrusion Prevention;8
+1055;Enterprise;Command and Scripting Interpreter;Disable or Remove Feature or Program;6
+1056;Enterprise;DNS;Filter Network Traffic;7
+1057;Enterprise;Modify Authentication Process;Privileged Account Management;6
+1058;Enterprise;Exploit Public-Facing Application;Update Software;8
+1059;Enterprise;Network Device Configuration Dump;Filter Network Traffic;7
+1060;Enterprise;Data Manipulation;Network Segmentation;8
+1061;Enterprise;Service Stop;Network Segmentation;8
+1062;Enterprise;Stored Data Manipulation;Restrict File and Directory Permissions;6
+1063;Enterprise;Exfiltration to Cloud Storage;Restrict Web-Based Content;5
+1064;Enterprise;OS Credential Dumping;Operating System Configuration;7
+1065;Enterprise;Unsecured Credentials;Encrypt Sensitive Information;5
+1066;Enterprise;Spearphishing Link;Software Configuration;8
+1067;Enterprise;Web Portal Capture;Privileged Account Management;6
+1068;Enterprise;Trusted Relationship;User Account Management;8
+1069;Enterprise;Browser Extensions;Audit;6
+1070;Enterprise;Exfiltration Over Unencrypted Non-C2 Protocol;Data Loss Prevention;5
+1071;Enterprise;Malware;Pre-compromise;5
+1072;Enterprise;Mark-of-the-Web Bypass;Execution Prevention;6
+1073;Enterprise;Browser Extensions;Limit Software Installation;5
+1074;Enterprise;Proc Memory;Behavior Prevention on Endpoint;5
+1075;Enterprise;Modify System Image;Multi-factor Authentication;8
+1076;Enterprise;Rename System Utilities;Restrict File and Directory Permissions;6
+1077;Enterprise;ListPlanting;Behavior Prevention on Endpoint;5
+1078;Enterprise;Sharepoint;User Account Management;8
+1079;Enterprise;Thread Execution Hijacking;Behavior Prevention on Endpoint;5
+1080;Enterprise;SEO Poisoning;Pre-compromise;5
+1081;Enterprise;Control Panel;Execution Prevention;6
+1082;Enterprise;Brute Force;Password Policies;7
+1083;Enterprise;Create Snapshot;Audit;6
+1084;Enterprise;Make and Impersonate Token;Privileged Account Management;6
+1085;Enterprise;Local Email Collection;Encrypt Sensitive Information;5
+1086;Enterprise;Forge Web Credentials;User Account Management;8
+1087;Enterprise;Disable or Modify Tools;Restrict File and Directory Permissions;6
+1088;Enterprise;JavaScript;Execution Prevention;6
+1089;Enterprise;Command and Scripting Interpreter;Behavior Prevention on Endpoint;5
+1090;Enterprise;Steal or Forge Kerberos Tickets;Active Directory Configuration;5
+1091;Enterprise;Impair Command History Logging;Environment Variable Permissions;5
+1092;Enterprise;Masquerade File Type;Antivirus/Antimalware;5
+1093;Enterprise;Protocol Tunneling;Network Intrusion Prevention;8
+1094;Enterprise;Install Digital Certificate;Pre-compromise;5
+1095;Enterprise;Browser Extensions;Update Software;8
+1096;Enterprise;Container Administration Command;Execution Prevention;6
+1097;Enterprise;Scheduled Task;Privileged Account Management;6
+1098;Enterprise;Network Address Translation Traversal;Credential Access Protection;5
+1099;Enterprise;CDNs;Pre-compromise;5
+1100;Enterprise;Exfiltration Over Bluetooth;Disable or Remove Feature or Program;6
+1101;Enterprise;Cached Domain Credentials;Active Directory Configuration;5
+1102;Enterprise;Disable or Modify Cloud Firewall;User Account Management;8
+1103;Enterprise;Data from Configuration Repository;Software Configuration;8
+1104;Enterprise;Print Processors;User Account Management;8
+1105;Enterprise;Virtual Private Server;Pre-compromise;5
+1106;Enterprise;Private Keys;Encrypt Sensitive Information;5
+1107;Enterprise;Digital Certificates;Pre-compromise;5
+1108;Enterprise;Domain Account;Operating System Configuration;7
+1109;Enterprise;Modify Authentication Process;User Account Management;8
+1110;Enterprise;SSH Authorized Keys;Disable or Remove Feature or Program;6
+1111;Enterprise;PowerShell Profile;Software Configuration;8
+1112;Enterprise;Additional Cloud Credentials;User Account Management;8
+1113;Enterprise;NTDS;Encrypt Sensitive Information;5
+1114;Enterprise;ROMMONkit;Audit;6
+1115;Enterprise;Malware;Pre-compromise;5
+1116;Enterprise;Password Managers;Software Configuration;8
+1117;Enterprise;User Execution;Restrict Web-Based Content;5
+1118;Enterprise;Linux and Mac File and Directory Permissions Modification;Restrict File and Directory Permissions;6
+1119;Enterprise;Downgrade System Image;Credential Access Protection;5
+1120;Enterprise;Data from Information Repositories;User Account Management;8
+1121;Enterprise;Remote Email Collection;Multi-factor Authentication;8
+1122;Enterprise;Network Address Translation Traversal;Multi-factor Authentication;8
+1123;Enterprise;/etc/passwd and /etc/shadow;Privileged Account Management;6
+1124;Enterprise;Systemd Service;Privileged Account Management;6
+1125;Enterprise;Cached Domain Credentials;Privileged Account Management;6
+1126;Enterprise;Phishing;Antivirus/Antimalware;5
+1127;Enterprise;Email Collection;Multi-factor Authentication;8
+1128;Enterprise;Additional Cloud Credentials;Privileged Account Management;6
+1129;Enterprise;Endpoint Denial of Service;Filter Network Traffic;7
+1130;Enterprise;Exploitation for Client Execution;Exploit Protection;6
+1131;Enterprise;Steal Web Session Cookie;Multi-factor Authentication;8
+1132;Enterprise;Downgrade System Image;Boot Integrity;6
+1133;Enterprise;Distributed Component Object Model;Disable or Remove Feature or Program;6
+1134;Enterprise;Token Impersonation/Theft;Privileged Account Management;6
+1135;Enterprise;Security Account Manager;Privileged Account Management;6
+1136;Enterprise;System Services;User Account Management;8
+1137;Enterprise;Steal Application Access Token;Audit;6
+1138;Enterprise;DCSync;Active Directory Configuration;5
+1139;Enterprise;DHCP Spoofing;Filter Network Traffic;7
+1140;Enterprise;Visual Basic;Antivirus/Antimalware;5
+1141;Enterprise;Scan Databases;Pre-compromise;5
+1142;Enterprise;Cloud Service Dashboard;User Account Management;8
+1143;Enterprise;InstallUtil;Disable or Remove Feature or Program;6
+1144;Enterprise;Credentials;Pre-compromise;5
+1145;Enterprise;Traffic Signaling;Disable or Remove Feature or Program;6
+1146;Enterprise;Password Guessing;Account Use Policies;5
+1147;Enterprise;Domain Fronting;SSL/TLS Inspection;8
+1148;Enterprise;Indicator Blocking;User Account Management;8
+1149;Enterprise;OS Credential Dumping;Behavior Prevention on Endpoint;5
+1150;Enterprise;IP Addresses;Pre-compromise;5
+1151;Enterprise;Code Signing Policy Modification;Boot Integrity;6
+1152;Enterprise;Network Sniffing;Multi-factor Authentication;8
+1153;Enterprise;Defacement;Data Backup;6
+1154;Enterprise;Digital Certificates;Pre-compromise;5
+1155;Enterprise;Unsecured Credentials;Update Software;8
+1156;Enterprise;Disable Windows Event Logging;User Account Management;8
+1157;Enterprise;Phishing;Restrict Web-Based Content;5
+1158;Enterprise;LSASS Memory;Privileged Account Management;6
+1159;Enterprise;Silver Ticket;Encrypt Sensitive Information;5
+1160;Enterprise;Drive-by Compromise;Restrict Web-Based Content;5
+1161;Enterprise;GUI Input Capture;User Training;8
+1162;Enterprise;Network Service Discovery;Network Segmentation;8
+1163;Enterprise;Office Test;Software Configuration;8
+1164;Enterprise;Process Injection;Privileged Account Management;6
+1165;Enterprise;Server;Pre-compromise;5
+1166;Enterprise;File Transfer Protocols;Network Intrusion Prevention;8
+1167;Enterprise;Internal Defacement;Data Backup;6
+1168;Enterprise;Bootkit;Boot Integrity;6
+1169;Enterprise;OS Credential Dumping;Active Directory Configuration;5
+1170;Enterprise;Code Repositories;Audit;6
+1171;Enterprise;Network Share Discovery;Operating System Configuration;7
+1172;Enterprise;Path Interception by Search Order Hijacking;Restrict File and Directory Permissions;6
+1173;Enterprise;VDSO Hijacking;Behavior Prevention on Endpoint;5
+1174;Enterprise;Clear Windows Event Logs;Remote Data Storage;6
+1175;Enterprise;Hijack Execution Flow;Behavior Prevention on Endpoint;5
+1176;Enterprise;Access Token Manipulation;Privileged Account Management;6
+1177;Enterprise;Escape to Host;Application Isolation and Sandboxing;5
+1178;Enterprise;Modify Authentication Process;Restrict Registry Permissions;5
+1179;Enterprise;Token Impersonation/Theft;User Account Management;8
+1180;Enterprise;Office Application Startup;Disable or Remove Feature or Program;6
+1181;Enterprise;Masquerading;Antivirus/Antimalware;5
+1182;Enterprise;Cached Domain Credentials;User Training;8
+1183;Enterprise;CMSTP;Disable or Remove Feature or Program;6
+1184;Enterprise;Email Accounts;Pre-compromise;5
+1185;Enterprise;Windows Remote Management;Privileged Account Management;6
+1186;Enterprise;Kerberoasting;Encrypt Sensitive Information;5
+1187;Enterprise;Server;Pre-compromise;5
+1188;Enterprise;Cron;User Account Management;8
+1189;Enterprise;Remote Access Software;Filter Network Traffic;7
+1190;Enterprise;Additional Cloud Credentials;Multi-factor Authentication;8
+1191;Enterprise;Disable or Modify Tools;Execution Prevention;6
+1192;Enterprise;Hijack Execution Flow;Restrict Registry Permissions;5
+1193;Enterprise;Kernel Modules and Extensions;Privileged Account Management;6
+1194;Enterprise;Pluggable Authentication Modules;Multi-factor Authentication;8
+1195;Enterprise;Exploitation of Remote Services;Application Isolation and Sandboxing;5
+1196;Enterprise;MMC;Execution Prevention;6
+1197;Enterprise;ARP Cache Poisoning;Network Intrusion Prevention;8
+1198;Enterprise;Socket Filters;Filter Network Traffic;7
+1199;Enterprise;RDP Hijacking;Network Segmentation;8
+1200;Enterprise;Digital Certificates;Pre-compromise;5
+1201;ATLAS;Search for Victim's Publicly Available Research Materials;Limit Release of Public Information;7
+1202;ATLAS;Search Victim-Owned Websites;Limit Release of Public Information;7
+1203;ATLAS;Datasets;Limit Model Artifact Release;7
+1204;ATLAS;Models;Limit Model Artifact Release;7
+1205;ATLAS;Publish Poisoned Datasets;Verify ML Artifacts;5
+1206;ATLAS;ML Supply Chain Compromise;Verify ML Artifacts;5
+1207;ATLAS;ML Software;Use Ensemble Methods;5
+1208;ATLAS;ML Software;Code Signing;5
+1209;ATLAS;Data;Control Access to ML Models and Data at Rest;8
+1210;ATLAS;Data;Sanitize Training Data;6
+1211;ATLAS;Model;Control Access to ML Models and Data at Rest;8
+1212;ATLAS;Model;Use Ensemble Methods;5
+1213;ATLAS;Model;Validate ML Model;5
+1214;ATLAS;Model;Code Signing;5
+1215;ATLAS;Model;Model Distribution Methods;6
+1216;ATLAS;Physical Environment Access;Use Multi-Modal Sensors;6
+1217;ATLAS;Full ML Model Access;Model Distribution Methods;6
+1218;ATLAS;Discover ML Model Ontology;Passive ML Output Obfuscation;6
+1219;ATLAS;Discover ML Model Ontology;Restrict Number of ML Model Queries;8
+1220;ATLAS;Discover ML Model Family;Passive ML Output Obfuscation;6
+1221;ATLAS;Discover ML Model Family;Restrict Number of ML Model Queries;8
+1222;ATLAS;Discover ML Model Family;Use Ensemble Methods;5
+1223;ATLAS;Poison Training Data;Limit Model Artifact Release;7
+1224;ATLAS;Poison Training Data;Control Access to ML Models and Data at Rest;8
+1225;ATLAS;Poison Training Data;Sanitize Training Data;6
+1226;ATLAS;Discover ML Artifacts;Encrypt Sensitive Information;5
+1227;ATLAS;User Execution;User Training;8
+1228;ATLAS;Unsafe ML Artifacts;Restrict Library Loading;6
+1229;ATLAS;Unsafe ML Artifacts;Code Signing;5
+1230;ATLAS;Unsafe ML Artifacts;Verify ML Artifacts;5
+1231;ATLAS;Unsafe ML Artifacts;Vulnerability Scanning;8
+1232;ATLAS;Unsafe ML Artifacts;User Training;8
+1233;ATLAS;Evade ML Model;Model Hardening;8
+1234;ATLAS;Evade ML Model;Use Ensemble Methods;5
+1235;ATLAS;Evade ML Model;Use Multi-Modal Sensors;6
+1236;ATLAS;Evade ML Model;Input Restoration;5
+1237;ATLAS;Evade ML Model;Adversarial Input Detection;7
+1238;ATLAS;Poison ML Model;Control Access to ML Models and Data at Rest;8
+1239;ATLAS;Poison ML Model;Sanitize Training Data;6
+1240;ATLAS;Poison ML Model;Validate ML Model;5
+1241;ATLAS;Inject Payload;Control Access to ML Models and Data at Rest;8
+1242;ATLAS;Inject Payload;Validate ML Model;5
+1243;ATLAS;Exfiltration via ML Inference API;Restrict Number of ML Model Queries;8
+1244;ATLAS;Infer Training Data Membership;Passive ML Output Obfuscation;6
+1245;ATLAS;Infer Training Data Membership;Restrict Number of ML Model Queries;8
+1246;ATLAS;Invert ML Model;Passive ML Output Obfuscation;6
+1247;ATLAS;Invert ML Model;Restrict Number of ML Model Queries;8
+1248;ATLAS;Extract ML Model;Passive ML Output Obfuscation;6
+1249;ATLAS;Extract ML Model;Restrict Number of ML Model Queries;8
+1250;ATLAS;Exfiltration via Cyber Means;Control Access to ML Models and Data at Rest;8
+1251;ATLAS;Denial of ML Service;Restrict Number of ML Model Queries;8
+1252;ATLAS;Denial of ML Service;Adversarial Input Detection;7
+1253;ATLAS;Spamming ML System with Chaff Data;Restrict Number of ML Model Queries;8
+1254;ATLAS;Erode ML Model Integrity;Model Hardening;8
+1255;ATLAS;Erode ML Model Integrity;Use Ensemble Methods;5
+1256;ATLAS;Erode ML Model Integrity;Input Restoration;5
+1257;ATLAS;Erode ML Model Integrity;Adversarial Input Detection;7
+1258;ATLAS;Cost Harvesting;Restrict Number of ML Model Queries;8
+1259;ATLAS;ML Artifact Collection;Encrypt Sensitive Information;5
+1260;ATLAS;White-Box Optimization;Model Distribution Methods;6
+1261;ATLAS;Black-Box Optimization;Passive ML Output Obfuscation;6
+1262;ATLAS;Black-Box Optimization;Restrict Number of ML Model Queries;8
+1263;ATLAS;Black-Box Optimization;Input Restoration;5
+1264;ATLAS;Black-Box Optimization;Adversarial Input Detection;7
+1265;ATLAS;ML Intellectual Property Theft;Control Access to ML Models and Data at Rest;8
+1266;ATLAS;ML Intellectual Property Theft;Encrypt Sensitive Information;5

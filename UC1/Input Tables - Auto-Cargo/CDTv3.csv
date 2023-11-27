@@ -1,0 +1,30 @@
+Comp.ID;Comp.Classes;Comp.Label;Comp.Name;Comp.ICSTypes;Comp.ITPlatform;Comp.MobileTechnologies;Comp.Additions;Comp.AIComps;Comp.Notes
+1;IT,AI,OT;Stability and Integrity System;SIS-AI Server;Control Server,Data Historian;Linux;;;Computer;
+2;OT;Stability and Integrity System;BWMS;Control Server;;;;;The Platform can be Embedded OS or COTS (Windows, Linux)
+3;IT;Stability and Integrity System;SIS-Network Switch;;Network;;;;
+4;IT,AI,OT;Cargo Handling System;CHS-AI Server;Control Server,Data Historian;Linux;;;Computer;
+5;OT;Cargo Handling System;CHS-PLCs;Field Controller/RTU/PLC/IED;;;;;
+6;OT;Cargo Handling System;Cranes;Actuator;;;;;
+7;IT;Cargo Handling System;CHS-Network Switch;;Network;;;;
+8;IT,AI,OT;Anchoring and Mooring System;AMS-AI Server;Control Server,Data Historian;Linux;;;Computer;
+9;OT;Anchoring and Mooring System;AMS-PLCs;Field Controller/RTU/PLC/IED;;;;;
+10;IT;Anchoring and Mooring System;AMS-Network Switch;;Network;;;;
+11;OT;Autonomous Engine Monitoring and Control System;Engine;Actuator;;;;;
+12;OT;Autonomous Engine Monitoring and Control System;Thrusters;Actuator;;;;;
+13;OT;Autonomous Engine Monitoring and Control System;AEMC-PLCs;Field Controller/RTU/PLC/IED;;;;;
+14;IT,AI,OT;Autonomous Engine Monitoring and Control System;AEMC-AI Server;Control Server,Data Historian;Linux;;;Computer;
+15;IT;Autonomous Engine Monitoring and Control System;AEMC-Network Switch;;Network;;;;
+16;OT,IT;Autonomous Engine Monitoring and Control System;DP-Controller;Control Server;Windows;;;;Assuming a DP3 or DP2 redundancy level. In this case, voting protocol is needed
+17;IT,WL;Communication Systems;Satellite Router;;Network;Any;Radio;;This usually provides broadband/internet
+18;IT,WL;Communication Systems;VHF;;Network;Any;Radio;;
+19;IT,WL;Communication Systems;Broadband Router;;Network;Any;Cell,Radio;;
+20;IT,AI,OT;Perception System;Navigation Situation Awareness System;Control Server,Data Historian;Linux;;;Computer;
+21;IT,OT,WL;Perception System;Radar;Sensor;Windows;Any;Radio;;
+22;OT;Perception System;LiDAR;Sensor;;;;;
+23;IT,OT,WL;Perception System;AIS;Sensor,HMI;Linux;Any;Radio;;Assuming the AIS has Wi-Fi interface like em-trak A200
+24;OT;Perception System;Sensor fusion;Sensor;;;;;
+25;IT;Perception System;PS-Network Switch;;Network;;;;
+26;IT,OT;Perception System;PTZ Cameras;Sensor;;;Cam;;
+27;OT,WL;Perception System;GNSS;Sensor,HMI;;Any;Radio;;
+28;AI,IT,OT;Optimization System;RSE Opt Sys;Engineering Workstation,Data Historian;Linux;;;Computer;Route, Speed and Energy Optimization System
+29;IT,OT;Optimization System;Main Data Historian;Data Historian;Linux;;;;
