@@ -8,5 +8,9 @@ In this repository, you can find the input data used for conducting the risk ass
 
 
 [1] Amro, A., Gkioulos, V., & Katsikas, S. (2023). Assessing cyber risk in cyber-physical systems using the ATT&CK framework. ACM Transactions on Privacy and Security, 26(2), 1-33.
+
+
 [2] Oruc, A., Amro, A., & Gkioulos, V. (2022). Assessing cyber risks of an INS using the MITRE ATT&CK framework. Sensors, 22(22), 8745.
+
+
 [3] Amro, A., & Gkioulos, V. (2023). Evaluation of a Cyber Risk Assessment Approach for Cyber–Physical Systems: Maritime-and Energy-Use Cases. Journal of Marine Science and Engineering, 11(4), 744.
